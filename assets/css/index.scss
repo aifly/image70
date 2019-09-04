@@ -1,0 +1,816 @@
+@mixin pos($v) {
+    @if $v == a {
+        position: absolute;
+    }
+    @else if $v == r {
+        position: relative;
+    }
+    @else if $v == f {
+        position: fixed;
+    }
+}
+
+@mixin br($v: 50%) {
+    border-radius: $v;
+}
+
+@mixin opacity($v: 0) {
+    opacity: $v;
+}
+
+@mixin transform($v) {
+    -webkit-transform: $v;
+    transform: $v;
+}
+
+@mixin transformOrigin($v) {
+    -webkit-transform-origin: $v;
+    transform-origin: $v;
+}
+
+@mixin backgroundSize($v: cover) {
+    background-size: $v;
+}
+
+@mixin transition_transform($v) {
+    -webkit-transition: -webkit-transform $v;
+    transition: transform $v;
+}
+
+@mixin transform_origin($v: center) {
+    -webkit-transform-origin: $v;
+    transform-origin: $v;
+}
+
+@mixin transition($v) {
+    -webkit-transition: $v;
+    transition: $v;
+}
+
+@mixin transitionTimingFunction($v: cubic-bezier(1, -0.025, 1, 0.865)) {
+    -webkit-transition-timing-function: $v;
+    transition-timing-function: $v;
+}
+
+@mixin transform($v) {
+    -webkit-transform: $v;
+    transform: $v;
+}
+
+@mixin background($bg) {
+    background: $bg;
+}
+
+@mixin backgroundSize($v: cover) {
+    background-size: $v;
+}
+
+@mixin animation($v) {
+    -webkit-animation: $v;
+    animation: $v;
+}
+
+@mixin transform3d {
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    perspective: 800px;
+    -webkit-perspective: 800px;
+}
+
+@mixin displayBox($v) {
+    display: -webkit-box;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    -webkit-box-orient: $v;
+}
+
+@mixin fly-h-gradient-line {
+    background: -webkit-gradient(linear, left top, right top, from(rgba(3, 114, 195, 0.2)), color-stop(0.5, rgba(3, 114, 195, 1)), to(rgba(3, 114, 195, 0.2)));
+    background: -moz-linear-gradient(left, rgba(3, 114, 195, 0.2), rgba(3, 114, 195, 1) 50%, rgba(3, 114, 195, 0.2));
+    background: -ms-linear-gradient(left, rgba(3, 114, 195, 0.2), rgba(3, 114, 195, 1) 50%, rgba(3, 114, 195, 0.2));
+}
+
+@mixin fly-v-gradient-line($minOpacity: 0.2, $maxOpacity: 1) {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(204, 204, 204, $minOpacity)), color-stop(0.5, rgba(204, 204, 204, $maxOpacity)), to(rgba(204, 204, 204, $minOpacity)));
+    background: -moz-linear-gradient(top, rgba(204, 204, 204, $minOpacity), rgba(204, 204, 204, $maxOpacity) 50%, rgba(204, 204, 204, $minOpacity));
+    background: -ms-linear-gradient(top, rgba(204, 204, 204, $minOpacity), rgba(204, 204, 204, $maxOpacity) 50%, rgba(204, 204, 204, $minOpacity));
+}
+
+@mixin displayFlex($v: column) {
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: $v;
+}
+
+.lt-full {
+    width: 100%;
+    height: 100%;
+
+    @include pos(a);
+
+    left: 0;
+    top: 0;
+}
+
+.zmiti-text-overflow {
+    overflow: hidden;
+    white-space: nowrap;
+    word-break: break-all;
+    text-overflow: ellipsis;
+    -webkit-text-overflow: ellipsis;
+}
+
+.zmiti-play {
+    width: .8rem;
+    height: .8rem;
+
+    @include br;
+    @include pos(f);
+
+    z-index: 1000;
+    right: .5rem;
+    top: .5rem;
+
+    &.rotate {
+        @include animation(rotate 5s linear infinite);
+    }
+}
+
+body {
+    font-family: "Helvetica Neue", 'Helvetica', "Microsoft YaHei", arial, sans-serif;
+    font-size: 28px;
+    -webkit-user-select: none;
+}
+
+#loading {
+    @include pos(a);
+    .lt-full{
+        width: 100%;
+        z-index: -1;
+        @include pos(f);
+
+        &:before{
+            content:'';
+            @include pos(a);
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+            background:rgba(0,0,0,.3);
+            z-index: 100;
+        }
+    }
+    //background: #158ae4;
+    //background: #000;
+    width: 100%;
+    height: 100vh;
+    z-index: 1100;
+    left: 0;
+    top: 0;
+    color: #fff;
+
+
+    & > div {
+        line-height: 60px;
+        width: 94%;
+        text-align: center;
+        font-size: 32px;
+        font-weight: bold;
+        margin: 0 auto;
+        color:#fff891;
+        @include pos(r);
+        font-family: Georgia;
+        z-index: 100;
+    }
+
+    .zmiti-clock {
+        width: 132px;
+        @include pos(r);
+        margin: 8vh auto  4vh;
+
+
+
+        height: 183px;
+        background: url(../images/clock-1.png) no-repeat center;
+
+        .zmiti-c1 {
+            width: 8px;
+            height: 30px;
+            @include pos(a);
+            background:#3486e5;
+            bottom: 66px;
+            left: 64px;
+
+
+            @include transformOrigin(center bottom);
+           @include animation(rotate1 linear 2s infinite);
+        }
+
+        .zmiti-c2 {
+            width: 36px;
+            height: 4px;
+            @include pos(a);
+            background:#3486e5;
+            bottom: 65px;
+            left: 69px;
+            @include transformOrigin(left bottom);
+            @include animation(rotate1 linear 1s infinite);
+        }
+
+        .zmiti-c0 {
+            background: url(../images/c0-1.png) no-repeat center;
+            width: 23px;
+            height: 23px;
+
+            @include pos(a);
+
+            left: 50%;
+            margin-left: -9px;
+            bottom: 55px;
+
+            @include animation(rotate1 linear 1s infinite);
+        }
+    }
+}
+
+@-webkit-keyframes rotate1 {
+    to {
+      @include transform(rotate(360deg));
+    }
+}
+
+#bar {
+    height: 30px;
+    margin-bottom: 30px;
+
+    @include pos(r);
+
+    overflow: hidden;
+
+    span {
+        width: 100%;
+
+        @include pos(a);
+
+        width: 100%;
+        height: 100%;
+        background: #f90;
+        left: 0;
+        top: 0;
+
+        @include transform(translate3d(-100%, 0, 0));
+    }
+}
+
+.zmiti-main-ui {
+    width: 100vw;
+    opacity:0;
+    color: #333;
+	padding-bottom: 50px;
+	&.active{
+		opacity:1;
+		@include transition(.3s);
+	}
+	
+	@include pos(r);
+	.zmiti-nav{
+		@include pos(a);
+		width: 96%;
+		@include displayBox(horizontal);
+		@include transition(.3s);
+		z-index:10;
+		left:2%;
+		&.hide{
+			@include transform(translateY(-700px));
+		}
+		margin-top: -80px;
+		-webkit-box-pack: justify;
+		li{
+			width: 90px;
+			height: 90px;
+			font-family: Georgia;
+			font-size:60px;
+			color:#ccc;
+			text-align: center;
+			@include br(10px);
+			line-height: 90px;
+			background: #ffffff;
+			&.active{
+				box-shadow:0 0 10px rgba(0,0,0,.3);
+				font-weight: bold;
+				color:#cc1819;
+			}
+
+		}
+	}
+
+    .zmiti-title-C {
+		line-height: 1.6;
+		width: 100%;
+		height: auto;
+		font-weight: normal;
+		
+		margin: 0px auto 20px;
+		text-align:justify;
+		background: url(../images/bg.jpg) no-repeat center top;
+		background-size:cover;
+		padding: 0 40px;
+		color:#fff;
+		box-sizing: border-box;
+		height: 100%;
+		overflow: hidden;
+		padding-bottom: 1300px;
+		@include transition(.4s);
+
+		&.hide{
+			height: 50%;
+			padding-bottom: 1300px;
+			.zmiti-nav{
+				
+			}
+			.zmiti-title-text{
+				height: 100px;
+				overflow: hidden;
+				&:nth-of-type(2){
+					display: none;
+				}
+			}
+			.zmiti-swpier-item{
+				@include transform(translate(0,-500px))
+			}
+			.zmiti-team-item{
+				display: none;
+			}
+			.zmiti-arrow{
+				margin-top: 20px;
+				@include transform(rotate(180deg) );
+			}
+		}
+		div.zmiti-title-text{
+			font-size:28px;
+			text-indent: 58px;
+			margin: 20px 0;
+			line-height: 50px;
+		}
+		.zmiti-title-img{
+			width: 90%;
+			text-indent: 0;
+			
+			margin: 30px auto;
+			img{
+				width:100%;
+			}
+		}
+		.zmiti-team-item{
+			
+			text-align: center;
+			margin: 0;
+			text-indent: 0;
+			
+		}
+		.zmiti-arrow{
+			//@include transform(rotate(-90deg) scale(1,2.4));
+			margin-top: 30px;
+			text-align: center;
+			margin: 10px 0 0 0 ;
+			text-indent: 0;
+			z-index: 100;
+			display: inline-block;
+			@include pos(r);
+			left: 50%;
+			width: 30px;
+			margin-left: -15px;;
+			&:before,&:after{
+				content:'';
+				width: 20px;
+				height: 20px;
+				border:4px solid #fff;
+				@include pos(a);
+				border-top: 0;
+				border-left: 0;
+				@include transform(rotate(45deg))
+			}
+			&:after{
+				border-width:4px;
+				margin-top: -10px;
+			}
+		}
+		header{
+			font-size:40px;
+			text-align: center;
+			font-weight: bold;
+			margin: 0px auto;
+			height: 100px;
+			line-height: 100px;
+			
+		}
+    }
+
+    .zmiti-swpier-item {
+		width: 100%;
+		background: #fff;
+		@include transition(.3s);
+		&.hide{
+			@include transform(translateY(-700px));
+		}
+
+		&.loading{
+			text-align: center;
+			span{
+				display: inline-block;
+				margin-top:40px;
+			}
+		}
+        .zmiti-header {
+            margin: 20px auto;
+			width: 90%;
+			color:#cc1819;
+			font-weight: bold;
+			font-size:40px;
+        }
+
+        .zmiti-swiper-bottom {
+            margin: 20px auto 20px;
+			width: 90%;
+			left: -20px;
+			padding:0;
+			text-align: justify;
+			@include pos(r);
+			text-indent: 0;
+            color: #666;
+
+        }
+
+        .zmiti-like{
+            display: block;
+        }
+
+        padding-bottom: 40px;
+    }
+
+    .zmiti-img-box {
+        @include pos(r);
+
+        .zmiti-heart {
+            @include pos(a);
+
+            width: 100px;
+            z-index: 100;
+            margin-left: -50px;
+            margin-top: -50px;
+
+            @include animation(scale 0.8s);
+        }
+
+        @-webkit-keyframes scale {
+            to {
+                @include transform(scale(4) translate3d(-4px, -4px, 0));
+
+                opacity: 0;
+            }
+        }
+
+        & > h3 {
+            font-size: 36px;
+
+            @include pos(r);
+
+            z-index: 100;
+        }
+
+        .zmiti-swipe-bar {
+            @include pos(a);
+
+            width: 8px;
+            height: 100%;
+            left: 50%;
+            margin-left: -4px;
+            top: 0;
+            background: #fff;
+
+            &:before,
+            &:after {
+                content: "";
+
+                @include pos(a);
+
+                width: 27px;
+                height: 46px;
+                background:url(../images/swipe.png) no-repeat center center;
+
+               /*  width: 0;
+                height: 0;
+                border-width: 18px 18px 18px 0;
+                border-style: solid;
+                border-color: transparent #fff transparent transparent;
+                margin: 40px auto; */
+                left: -25px;
+                top: 50%;
+                margin-top: -10px;
+            }
+
+            &:after {
+                @include transform(rotate(180deg));
+
+                left: auto;
+                right: -25px;
+            }
+        }
+
+        overflow: hidden;
+
+        canvas {
+            @include pos(a);
+            left: 0;
+            top: 0;
+            background: #bbbbbb;
+        }
+
+        & > .zmiti-img {
+            &:nth-of-type(1) {
+                @include pos(f);
+
+                z-index: -1;
+                left: 100%;
+            }
+
+            &:nth-of-type(2) {
+                opacity: 0;
+            }
+        }
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    .zmiti-img-like-num {
+        color: #666;
+    }
+
+    .zmiti-like {
+        @include pos(r);
+
+        text-align: right;
+        width: 90%;
+        margin: 0 auto;
+
+        img {
+            width: 40px;
+            height: 40px;
+        }
+
+        & > img {
+            @include pos(r);
+
+            z-index: 100;
+        }
+
+        .zmiti-face {
+            @include pos(a);
+
+            right: 0;
+            top: 0;
+            opacity: 0;
+        }
+    }
+}
+
+.zmiti-msg-input {
+    padding-bottom: 30px;
+    height: 100px;
+    line-height: 100px;
+    z-index: 1020;
+
+    & > div {
+        @include displayBox(horizontal);
+
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    background: #fff;
+    width: 100%;
+
+    @include pos(f);
+
+    &:before {
+        content: '';
+
+        @include pos(a);
+
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    }
+
+    bottom: 0;
+    left: 0;
+
+    &.active {
+        opacity: 0;
+
+        @include pos(a);
+
+        z-index: -1;
+    }
+
+    .zmiti-input-enable {
+        -webkit-box-flex: 1;
+        height: 100%;
+
+        @include pos(r);
+
+        img {
+            width: 20px;
+            margin: 0 20px;
+            margin-top: 14px;
+        }
+
+        &:before {
+            content: '';
+            z-index: -1;
+
+            @include pos(a);
+
+            width: 90%;
+            height: 70%;
+            background: #f6f6f6;
+
+            @include br(30px);
+
+            left: 0;
+            top: 10%;
+        }
+    }
+
+    .zmiti-discuss {
+        img {
+            width: 40px;
+        }
+    }
+
+    .zmiti-discuss,
+    .zmiti-share {
+        width: 80px;
+        text-align: center;
+
+        @include pos(r);
+
+        z-index: 1000;
+    }
+
+    .zmiti-share {
+        width: 80px;
+
+        img {
+            width: 40px;
+        }
+    }
+}
+
+.zmiti-submit-input {
+    width: 100%;
+    margin: 0 auto;
+    opacity: 0;
+    height: 100vh;
+    z-index: -1;
+
+    @include transform(translate3d(0, 50vh, 0));
+    @include transition(0.2s);
+    @include pos(f);
+
+    background: #fff;
+    top: 0;
+    left: 0;
+
+    &.active {
+        opacity: 1;
+        z-index: 1002;
+
+        @include transform(translate3d(0, 0, 0));
+    }
+
+    text-align: center;
+
+    textarea {
+        width: 90%;
+        height: 140px;
+        margin-top: 20px;
+        padding: 10px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+
+        @include br(10px);
+
+        font-size: 30px;
+    }
+
+    .zmiti-submit-btn {
+        width: 120px;
+        height: 60px;
+        text-align: center;
+        line-height: 60px;
+        background: #f90;
+        color: #fff;
+
+        @include br(10px);
+
+        float: right;
+        margin: 30px 5% 50px;
+    }
+
+    #zmiti-back-btn {
+        background: #ccc;
+    }
+}
+
+.zmiti-mask {
+    @include pos(f);
+
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1800;
+    display: none;
+    text-align: right;
+
+    img {
+        margin: 10px 10px 0 0;
+    }
+}
+
+.zmiti-result {
+    @include pos(f);
+
+    left: 50%;
+    opacity: 0;
+    z-index: -1;
+    top: 50%;
+
+    &.active {
+        z-index: 8000;
+        opacity: 1;
+    }
+
+    padding: 20px 40px;
+
+    @include transform(translate3d(-50%, -50%, 0));
+
+    @include displayBox(vertical);
+
+    background: rgba(0, 0, 0, 0.7);
+
+    @include br(10px);
+
+    color: #fff;
+
+    img {
+        width: 100px;
+        margin: 30px 0;
+
+        &.error {
+            height: 100px;
+            width: auto;
+        }
+    }
+}
+
+
+.zmiti-team{
+    width: 90%;
+    color:#666;
+    border-top:1px solid #eee;
+    min-height: 100px;
+    margin: 0 auto;
+    &>div{
+        @include displayBox(horizontal);
+        margin: 15px 0;
+        -webkit-box-pack: start;
+        -webkit-box-align:start;
+        &>div{
+            &:nth-of-type(1){
+                width: 180px;
+            }
+            &:nth-of-type(2){
+                -webkit-box-flex:1;
+                word-break: break-all;
+            }
+        }
+        &.zmiti-spilt{
+            &>div{
+                &:nth-of-type(1){
+                    width: 100%;
+                }
+            }
+        }
+        span{
+            margin-right:16px;;
+        }
+    }
+}
