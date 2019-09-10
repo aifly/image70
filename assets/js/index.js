@@ -801,6 +801,9 @@
 				'./assets/images/edit.png',
 			];
 			var s = this;
+			setTimeout(() => {
+				s.$('#loading').classList.add('show');
+			}, 100);
 			this.imgList.forEach(function (imgs, l) {
 				l === s.currentIndex && imgs.forEach(function (img, i) {
 					imgList = imgList.concat(img.imgs);
@@ -826,7 +829,7 @@
 			}, function () {
 				
 				setTimeout(function () {
-					s.$('#loading').style.display = 'none';
+					s.$('#loading').classList.remove('show');
 					s.$('.zmiti-main-ui').classList.add('active');
 					s.layout();
 					s.setSize();
@@ -868,6 +871,9 @@
 		},
 		initCanvas: function () {
 			var self = this;
+			document.addEventListener('touchmove',function(e){
+			
+			})
 			this.canvases.forEach(function (item, i) {
 				///var {canvas,imgs,box,offsetLeft} = item;
 				var canvas = item.canvas,
@@ -927,7 +933,7 @@
 
 							context.drawImage(imgs[1], 0, 0, canvas.width * scale * s, canvas.height * scale, 0, 0, canvas.width * s, canvas.height);
 							bar.style.left = Math.min(Math.max(s * 100, 0), 99) + '%';
-							return false;
+							
 						}
 						document.ontouchend = function (e) {
 							// e.preventDefault();
@@ -959,23 +965,16 @@
 
 
 						}
-						e.stopPropagation();
-						e.preventDefault();
-						return false;
+					
 					}
 
 					box.querySelector('.zmiti-img-box').addEventListener('touchstart', function (e) {
 						start(e);
-						e.preventDefault();
-						return false;
 						// return false;
 					});
 
 					box.querySelector('.zmiti-img-box').addEventListener('touchmove', function (e) {
 						
-						e.preventDefault();
-						return false;
-						// return false;
 					});
 
 					
@@ -1018,15 +1017,19 @@
 	var playObj = util.$('#play');
 	var audio = util.$('#audio');
 
-	audio.addEventListener('play', function () {
+	audio.play()
+	playObj.classList.add('rotate');
 
+	audio.addEventListener('play', function () {
 		playObj.classList.add('rotate');
+		console.log(123);
 	});
 	audio.addEventListener('pause', function () {
 		playObj.classList.remove('rotate');
 	});
 	playObj.addEventListener('touchend', function () {
-		audio[audio.paused ? 'play' : "pause"]()
+		audio[audio.paused ? 'play' : "pause"]();
+		playObj.classList[audio.paused?'remove':'add']('rotate');//
 	})
 
 	var s = this;

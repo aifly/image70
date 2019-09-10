@@ -142,7 +142,14 @@ body {
 }
 
 #loading {
-    @include pos(a);
+	@include pos(a);
+	opacity:0;
+	display: none;
+	&.show{
+		display: block !important;
+		opacity:1;
+		
+	}
     .lt-full{
         width: 100%;
         z-index: -1;
@@ -278,7 +285,7 @@ body {
     color: #333;
 	padding-bottom: 50px;
 	&.active{
-		opacity:1;
+		opacity:1 !important;
 		@include transition(.3s);
 	}
 	

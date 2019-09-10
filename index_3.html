@@ -44,9 +44,9 @@
 <body>
 	<div id='play' class='zmiti-play '>
 		<img src="./assets/images/play.png" alt="">
-		<audio src='./assets/music/bg.mp3' autoplay loop id='audio'></audio>
+		<audio src='./assets/music/bg.mp3'  loop id='audio'></audio>
 	</div>
-	<div id='loading'>
+	<div id='loading' style='display:none;'>
 		<div class='lt-full'
 			style='background:url(./assets/images/loading-bg1.jpg) no-repeat center top;background-size:cover;opacity: 1'>
 		</div>
@@ -60,7 +60,7 @@
 		<div>你将看到70年时光流影。</div>
 		<div id='progress'>0%</div>
 	</div>
-	<div class='zmiti-main-ui'>
+	<div class='zmiti-main-ui' style="opacity:0;">
 		<div class="zmiti-title-C hide " id='zmiti-title-C'>
 			<header>70年时光流影 70行见证发展</header>
 			<div class='zmiti-title-img'>
@@ -129,7 +129,7 @@
 					desc: '70年时光流影 70行见证发展',
 					//link: encodeURIComponent(window.location.href.split('?')[0].split('#')[0]),
 					link: 'https://h5.zhongguowangshi.com/h5/' + window.h5name + '/index.html',
-					imgUrl: "http://h5.zhongguowangshi.com/h5/" + window.h5name + "/assets/images/204.jpg",
+					imgUrl: "http://h5.zhongguowangshi.com/h5/" + window.h5name + "/assets/images/300.jpg",
 					error: function () {
 
 					},
