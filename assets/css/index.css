@@ -30,6 +30,35 @@ body {
   -webkit-user-select: none;
 }
 
+#zmiti-group-name {
+  font-size: 40px;
+}
+
+.zmiti-prev-list {
+  display: -webkit-box;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+  -webkit-box-orient: horizontal;
+}
+
+.zmiti-prev-list div {
+  -webkit-box-flex: 1;
+  text-align: center;
+  border: 1px solid #ccc;
+  margin: 0 4px;
+  height: 50px;
+  border-radius: 5px;
+  line-height: 50px;
+  max-width: 400px;
+}
+
+.zmiti-prev-list div a {
+  color: inherit;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
 #loading {
   position: absolute;
   opacity: 0;
@@ -161,6 +190,11 @@ body {
   animation: rotate 5s linear infinite;
 }
 
+#container {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
 .zmiti-main-ui {
   width: 100vw;
   opacity: 0;
@@ -173,6 +207,57 @@ body {
   opacity: 1 !important;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+}
+
+.zmiti-main-ui.close .zmiti-title-text {
+  opacity: 0;
+  -webkit-transition: 0.5s 0.5s opacity;
+  transition: 0.5s 0.5s opacity;
+}
+
+.zmiti-main-ui.close .zmiti-team-item {
+  opacity: 0;
+  -webkit-transition: 0.5s 0.5s opacity;
+  transition: 0.5s 0.5s opacity;
+}
+
+.zmiti-main-ui.close .zmiti-title-C {
+  padding-bottom: 1580px;
+}
+
+.zmiti-main-ui.close .zmiti-title-important {
+  display: block;
+  opacity: 1;
+}
+
+.zmiti-main-ui.close #container {
+  -webkit-transform: translate(0, -1000px);
+  transform: translate(0, -1000px);
+}
+
+.zmiti-main-ui.close .zmiti-arrow {
+  -webkit-transform: translate(0, -1000px);
+  transform: translate(0, -1000px);
+  margin: -70px 0 0 -50px;
+  left: 50%;
+}
+
+.zmiti-main-ui.close .zmiti-arrow:before, .zmiti-main-ui.close .zmiti-arrow:after {
+  content: '';
+  width: 20px;
+  height: 20px;
+  border: 4px solid #fff;
+  position: absolute;
+  border-top: 0;
+  border-left: 0;
+  left: 30px;
+  -webkit-transform: translateY(20px) rotate(45deg);
+  transform: translateY(20px) rotate(45deg);
+}
+
+.zmiti-main-ui.close .zmiti-arrow:after {
+  border-width: 4px;
+  margin-top: -10px;
 }
 
 .zmiti-main-ui .zmiti-nav {
@@ -213,8 +298,36 @@ body {
   color: #cc1819;
 }
 
-.zmiti-main-ui #zmiti-group-name {
-  font-size: 40px;
+.zmiti-main-ui .zmiti-arrow {
+  text-align: center;
+  margin: -100px 0 0 0;
+  text-indent: 0;
+  z-index: 100;
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  height: 50px;
+  width: 100px;
+  margin-left: -50px;
+  z-index: 100;
+}
+
+.zmiti-main-ui .zmiti-arrow:before, .zmiti-main-ui .zmiti-arrow:after {
+  content: '';
+  width: 20px;
+  height: 20px;
+  border: 4px solid #fff;
+  position: absolute;
+  border-top: 0;
+  border-left: 0;
+  left: 30px;
+  -webkit-transform: translateY(20px) rotate(225deg);
+  transform: translateY(20px) rotate(225deg);
+}
+
+.zmiti-main-ui .zmiti-arrow:after {
+  border-width: 4px;
+  margin-top: -10px;
 }
 
 .zmiti-main-ui .zmiti-title-C {
@@ -233,7 +346,7 @@ body {
   overflow: hidden;
   position: relative;
   z-index: 8;
-  padding-bottom: 1480px;
+  padding-bottom: 1420px;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -248,13 +361,9 @@ body {
   overflow: hidden;
 }
 
-.zmiti-main-ui .zmiti-title-C.hide .zmiti-title-text:nth-of-type(2) {
-  display: none;
-}
-
 .zmiti-main-ui .zmiti-title-C.hide .zmiti-swpier-item {
-  -webkit-transform: translate(0, -500px);
-  transform: translate(0, -500px);
+  -webkit-transform: translate(0, -700px);
+  transform: translate(0, -700px);
 }
 
 .zmiti-main-ui .zmiti-title-C.hide .zmiti-team-item {
@@ -290,37 +399,6 @@ body {
   text-indent: 0;
 }
 
-.zmiti-main-ui .zmiti-title-C .zmiti-arrow {
-  text-align: center;
-  margin: 0px 0 0 0;
-  text-indent: 0;
-  z-index: 100;
-  display: inline-block;
-  position: relative;
-  left: 50%;
-  height: 50px;
-  width: 100px;
-  margin-left: -50px;
-}
-
-.zmiti-main-ui .zmiti-title-C .zmiti-arrow:before, .zmiti-main-ui .zmiti-title-C .zmiti-arrow:after {
-  content: '';
-  width: 20px;
-  height: 20px;
-  border: 4px solid #fff;
-  position: absolute;
-  border-top: 0;
-  border-left: 0;
-  left: 30px;
-  -webkit-transform: translateY(20px) rotate(45deg);
-  transform: translateY(20px) rotate(45deg);
-}
-
-.zmiti-main-ui .zmiti-title-C .zmiti-arrow:after {
-  border-width: 4px;
-  margin-top: -10px;
-}
-
 .zmiti-main-ui .zmiti-title-C header {
   font-size: 40px;
   text-align: center;
@@ -328,6 +406,10 @@ body {
   margin: 0px auto;
   height: 100px;
   line-height: 100px;
+}
+
+.zmiti-main-ui .zmiti-title-C header span {
+  margin: 0 10px;
 }
 
 .zmiti-main-ui .zmiti-swpier-item {
@@ -339,8 +421,8 @@ body {
 }
 
 .zmiti-main-ui .zmiti-swpier-item.hide {
-  -webkit-transform: translateY(-700px);
-  transform: translateY(-700px);
+  -webkit-transform: translateY(-1000px);
+  transform: translateY(-1000px);
 }
 
 .zmiti-main-ui .zmiti-swpier-item.loading {

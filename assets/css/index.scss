@@ -140,7 +140,28 @@ body {
     font-size: 28px;
     -webkit-user-select: none;
 }
-
+#zmiti-group-name{
+	font-size:40px;
+}
+.zmiti-prev-list{
+	@include displayBox(horizontal);
+	div{
+		-webkit-box-flex:1;
+		text-align: center;
+		border:1px solid #ccc;
+		margin: 0 4px;
+		height: 50px;
+		@include br(5px);
+		line-height: 50px;
+		max-width: 400px;
+		a{
+			color:inherit;
+			display: block;
+			width: 100%;
+			height:100%;
+		}
+	}
+}
 #loading {
 	@include pos(a);
 	opacity:0;
@@ -278,6 +299,9 @@ body {
         @include animation(rotate 5s linear infinite);
     }
 }
+#container{
+	@include transition(.5s);
+}
 
 .zmiti-main-ui {
     width: 100vw;
@@ -287,6 +311,48 @@ body {
 	&.active{
 		opacity:1 !important;
 		@include transition(.3s);
+	}
+	&.close{
+		.zmiti-title-text{
+			opacity:0;
+			@include transition(.5s .5s opacity);
+		}
+		.zmiti-team-item{
+			opacity:0;
+			@include transition(.5s .5s opacity);
+		}
+		 .zmiti-title-C{
+			//padding-bottom: 1200px;
+			padding-bottom: 1580px;
+		 }
+		.zmiti-title-important{
+			display: block;
+			opacity:1;
+		}
+		#container{
+			@include transform(translate(0,-1000px));
+		}
+		.zmiti-arrow{
+			@include transform(translate(0,-1000px));
+			margin: -70px 0 0 -50px;
+			left: 50%;
+			&:before,&:after{
+				content:'';
+				width: 20px;
+				height: 20px;
+				border:4px solid #fff;
+				@include pos(a);
+				border-top: 0;
+				border-left: 0;
+				left:30px;
+				@include transform(translateY(20px) rotate(45deg) )
+			}
+			&:after{
+				border-width:4px;
+				margin-top: -10px;
+			}
+				
+		}
 	}
 	
 	@include pos(r);
@@ -320,9 +386,37 @@ body {
 
 		}
 	}
-	#zmiti-group-name{
-		font-size:40px;
+	.zmiti-arrow{
+		//@include transform(rotate(-90deg) scale(1,2.4));
+		text-align: center;
+		margin: -100px 0 0 0 ;
+		text-indent: 0;
+		z-index: 100;
+		display: inline-block;
+		@include pos(a);
+
+		left: 50%;
+		height: 50px;
+		width: 100px;
+		margin-left: -50px;;
+		z-index: 100;
+		&:before,&:after{
+			content:'';
+			width: 20px;
+			height: 20px;
+			border:4px solid #fff;
+			@include pos(a);
+			border-top: 0;
+			border-left: 0;
+			left:30px;
+			@include transform(translateY(20px) rotate(225deg) )
+		}
+		&:after{
+			border-width:4px;
+			margin-top: -10px;
+		}
 	}
+
     .zmiti-title-C {
 		line-height: 1.6;
 		width: 100%;
@@ -340,7 +434,7 @@ body {
 		overflow: hidden;
 		@include pos(r);
 		z-index:8;
-		padding-bottom: 1480px;
+		padding-bottom: 1420px;
 		@include transition(.4s);
 
 		&.hide{
@@ -350,12 +444,12 @@ body {
 			.zmiti-title-text{
 				height: 100px;
 				overflow: hidden;
-				&:nth-of-type(2){
-					display: none;
+				&:nth-of-type(1){
+				
 				}
 			}
 			.zmiti-swpier-item{
-				@include transform(translate(0,-500px))
+				@include transform(translate(0,-700px));
 			}
 			.zmiti-team-item{
 				display: none;
@@ -387,34 +481,7 @@ body {
 			text-indent: 0;
 			
 		}
-		.zmiti-arrow{
-			//@include transform(rotate(-90deg) scale(1,2.4));
-			text-align: center;
-			margin: 0px 0 0 0 ;
-			text-indent: 0;
-			z-index: 100;
-			display: inline-block;
-			@include pos(r);
-			left: 50%;
-			height: 50px;
-			width: 100px;
-			margin-left: -50px;;
-			&:before,&:after{
-				content:'';
-				width: 20px;
-				height: 20px;
-				border:4px solid #fff;
-				@include pos(a);
-				border-top: 0;
-				border-left: 0;
-				left:30px;
-				@include transform(translateY(20px) rotate(45deg) )
-			}
-			&:after{
-				border-width:4px;
-				margin-top: -10px;
-			}
-		}
+		
 		header{
 			font-size:40px;
 			text-align: center;
@@ -422,6 +489,11 @@ body {
 			margin: 0px auto;
 			height: 100px;
 			line-height: 100px;
+
+			
+			span{
+				margin:0 10px;
+			}
 			
 		}
     }
@@ -431,7 +503,7 @@ body {
 		background: #fff;
 		@include transition(.3s);
 		&.hide{
-			@include transform(translateY(-700px));
+			@include transform(translateY(-1000px));
 		}
 
 		&.loading{

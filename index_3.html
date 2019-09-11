@@ -44,7 +44,7 @@
 <body>
 	<div id='play' class='zmiti-play '>
 		<img src="./assets/images/play.png" alt="">
-		<audio src='./assets/music/bg.mp3'  loop id='audio'></audio>
+		<audio src='./assets/music/bg.mp3' loop id='audio'></audio>
 	</div>
 	<div id='loading' style='display:none;'>
 		<div class='lt-full'
@@ -60,30 +60,33 @@
 		<div>你将看到70年时光流影。</div>
 		<div id='progress'>0%</div>
 	</div>
-	<div class='zmiti-main-ui' style="opacity:0;">
-		<div class="zmiti-title-C hide " id='zmiti-title-C'>
-			<header>70年时光流影 70行见证发展</header>
+	<div class='zmiti-main-ui close' style="opacity:0;">
+		<div class="zmiti-title-C  " id='zmiti-title-C'>
+			<header><span>70年时光流影</span> <span>70行见证发展</span></header>
 			<div class='zmiti-title-img'>
-				<img src="./assets/images/70.png" alt="">
+				<img src="./assets/images/70-1.png" alt="">
 			</div>
-			<div class='zmiti-title-text'>
-				<div style='text-align:center;text-indent:0;' id='zmiti-group-name'>第一组</div>
+			<div class="zmiti-title-text zmiti-title-important">
 				<p style="text-indent: 2em;margin: 0;padding: 0;">
-					根据国家统计局发布的报告，2018年中国国内生产总值比1952年增长175倍，年均增长8.1%。正是这些脚踏实地走向梦想的普通人，默默奋斗，风雨砥砺，使中国从封闭落后迈向开放进步，从温饱不足迈向全面小康，从积贫积弱迈向繁荣富强，创造了人类发展史上的伟大奇迹。
+					70年时光流转，行业在变迁，不变的是中国人在平凡岗位上的不懈奋斗。脚踏实地走向梦想的劳动者，是新中国美好生活的创造者、守护者。
 				</p>
 			</div>
 			<div class='zmiti-title-text'>
-				从邮递员到快递小哥、从下水道工人到城市环卫工作者、从绿皮火车司机到高铁司机……他们是普通职业的从业者，他们是新中国美好生活的创造者、守护者。每一个中国人，每一点平凡的努力，成就不平凡的自己，也成就不平凡的中国。
+				<p style="text-indent: 2em;margin: 0;padding: 0;">
+					每一个中国人，每一点平凡的努力，成就了不平凡的自己，也成就了不平凡的中国。来自国家统计局的数据显示，1952年，我国国内生产总值仅为679亿元。2018年，中国经济总量跨过90万亿元大关。70年来，中国从封闭落后迈向开放进步，从温饱不足迈向全面小康，从积贫积弱迈向繁荣富强，创造了人类发展史上的伟大奇迹。
+				</p>
 			</div>
+
 			<div class='zmiti-team-item'>总策划：刘洁 陈凯星 周亮</div>
 			<div class='zmiti-team-item'>执行策划：王建华 齐慧杰 薛东梅</div>
 			<div class='zmiti-team-item'>图片编辑：林繁晶 孟晨光 赵宇思 隋先凯</div>
 			<div class='zmiti-team-item'>新媒体编辑：胡国香 唐颢宸</div>
 			<div class='zmiti-team-item'>技术保障：范天资 相昌盛</div>
+			<div class='zmiti-team-item'>背景音乐：张藜填词 秦咏诚谱曲</div>
 			<div class='zmiti-team-item'>设计制作：麟腾传媒</div>
 			<div class='zmiti-team-item'>技术支持：新华社新媒体中心智能化编辑部</div>
 			<div class='zmiti-team-item'>新华社摄影部 新华社新媒体中心 联合出品</div>
-			<span class='zmiti-arrow' id='zmiti-arrow'></span>
+
 		</div>
 		<ul class='zmiti-nav hide' id='zmiti-nav' style='display:none'>
 			<li class='active'>1</li>
@@ -94,6 +97,7 @@
 			<li>6</li>
 			<li>7</li>
 		</ul>
+		<span class='zmiti-arrow' id='zmiti-arrow'></span>
 		<div id="container" class='hide'>
 
 		</div>
@@ -129,7 +133,7 @@
 					desc: '70年时光流影 70行见证发展',
 					//link: encodeURIComponent(window.location.href.split('?')[0].split('#')[0]),
 					link: 'https://h5.zhongguowangshi.com/h5/' + window.h5name + '/index.html',
-					imgUrl: "http://h5.zhongguowangshi.com/h5/" + window.h5name + "/assets/images/300.jpg",
+					imgUrl: "http://h5.zhongguowangshi.com/h5/" + window.h5name + "/assets/images/301.jpg",
 					error: function () {
 
 					},

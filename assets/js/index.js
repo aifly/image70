@@ -89,12 +89,11 @@
 					})
 				}
 			}; */
+			var main = this.$('.zmiti-main-ui')
 			this.$('#zmiti-arrow').ontouchend = function () {
-				titleC.classList.toggle('hide');
+				main.classList.toggle('close');
 				//nav.classList.toggle('hide');
-				for (var i = 0; i < items.length; i++) {
-					items[i].classList.toggle('hide');
-				}
+				
 
 			}
 
@@ -107,7 +106,7 @@
 		imgList: [
 			[
 				{
-					title: '麦收',
+					title: '农民和农机技术员',
 					imgs: [
 						'./assets/images/01/2-3.jpg',
 						'./assets/images/01/1-3.jpg',
@@ -123,7 +122,7 @@
 					desc: '<div style="text-indent:2em;text-align:justify">1950年，辽宁鞍山职工医院医务人员在为婴儿称体重（王纯德摄）。</div><div style="text-indent:2em;text-align:justify">2019年7月19日，在内蒙古呼和浩特，内蒙古自治区人民医院新生儿科护士长杨晓玲（右）和同事用多功能保温箱为婴儿称体重（新华社记者彭源摄）。</div><div style="text-indent:2em;text-align:justify">新中国新生儿医疗护理水平取得巨大进步，新生儿科医务工作人员的工作条件也发生了巨大的变化。在内蒙古自治区人民医院，新生儿科设有新生儿重症监护病区，并配置进口呼吸机、辐射抢救台、封闭式婴儿培养箱等先进设备。</div>'
 				},
 				{
-					title: '婚姻登记处员工',
+					title: '婚姻登记员',
 					imgs: [
 						'./assets/images/01/6-3.jpg',
 						'./assets/images/01/5-3.jpg',
@@ -131,15 +130,15 @@
 					desc: '<div style="text-indent:2em;text-align:justify">1952年，在湖南醴陵，司法工作人员（左）将结婚证递给白兔潭村村民全裕盛（中）和孙桂华（新华社记者毛松友摄）。</div><div style="text-indent:2em;text-align:justify">2019年6月25日，在湖南醴陵，民政局工作人员宋宛真（左）将结婚证递给前来登记的新人刘亮（右）和范灵芝（新华社记者薛宇舸摄）。</div><div style="text-indent:2em;text-align:justify">据醴陵民政局工作人员介绍，现在婚姻登记使用实时在线登记系统，更加科学、规范、便民。</div>'
 				},
 				{
-					title: '快递小哥',
+					title: '邮递员与快递员',
 					imgs: [
 						'./assets/images/01/8-3.jpg',
 						'./assets/images/01/7-3.jpg',
 					],
-					desc: '<div style="text-indent:2em;text-align:justify">1951年，北京市邮政管理局的三名女邮递员一早准备出发工作（新华社记者牛畏予摄）。</div><div style="text-indent:2em;text-align:justify">2019年6月26日，北京市前门石头胡同顺丰快递点快递小哥刘阔驾驶电动车出发送快递（新华社记者鞠焕宗摄）。</div><div style="text-indent:2em;text-align:justify">过去，邮递员大多骑着一辆绿色加重自行车，一天可派送近百封平信。近年来，随着电子通信设备的日益完善和电商的发展，传送家书的平信少了，快递包裹应运而生。如今，在派送高峰期，一名快递员用快递三轮车一天可派送数百件包裹。</div>'
+					desc: '<div style="text-indent:2em;text-align:justify">1951年，北京市邮政管理局的三名女邮递员一早准备出发工作（新华社记者牛畏予摄）。</div><div style="text-indent:2em;text-align:justify">2019年6月26日，北京市前门石头胡同顺丰快递点快递小哥刘阔驾驶电动车出发送快递（新华社记者鞠焕宗摄）。</div><div style="text-indent:2em;text-align:justify"> 过去，邮递员大多骑着一辆绿色加重自行车，一天可派送近百封平信。近年来，随着电子通信设备的日益完善和电商的发展，传送家书的平信少了，快递包裹越来越多。如今，在派送高峰期，一名快递员用快递三轮车一天可派送数百件包裹。</div>'
 				},
 				{
-					title: '自行车',
+					title: '自行车装配工',
 					imgs: [
 						'./assets/images/01/10-3.jpg',
 						'./assets/images/01/9-3.jpg',
@@ -154,14 +153,14 @@
 					],
 					desc: '<div style="text-indent:2em;text-align:justify">1954年，在新疆帕米尔高原上的乌恰县，一位牧区医疗小组的医务人员被柯尔克孜族牧民妇女们请到家里去看病（新华社记者王平摄）。</div><div style="text-indent:2em;text-align:justify">2019年7月7日，新疆塔什库尔干塔吉克自治县达布达尔乡热斯喀木村村医发尔亚特•塔西白克（右三）与来自乡卫生院的医务人员来到热斯喀木村易地扶贫搬迁安置点出诊（新华社记者胡虎虎摄）。</div><div style="text-indent:2em;text-align:justify">从过去骑着马深入大山牧场巡诊，到现在定期前往集中居住点上门服务；从过去几种简单的常备药，到如今种类丰富的各类药品……新疆牧区的医疗条件和水平大幅提升，牧民享受到越来越多、越来越便利的医疗惠民服务。</div>'
 				}, {
-					title: '一汽工人',
+					title: '汽车制造工人',
 					imgs: [
 						'./assets/images/01/14-3.jpg',
 						'./assets/images/01/13-3.jpg',
 					],
 					desc: '<div style="text-indent:2em;text-align:justify">这是1958年拍摄的第一汽车制造厂（资料照片）。这里生产了第一批红旗轿车。</div><div style="text-indent:2em;text-align:justify">2019年4月9日，在一汽红旗总装车间内，职工在对生产的红旗轿车进行静检作业（新华社记者许畅摄）。</div><div style="text-indent:2em;text-align:justify">60多年前，新中国汽车工业百废待兴，老一辈汽车人和建设者来到长春创立第一汽车制造厂（现中国第一汽车集团有限公司），开启了我国汽车工业的发展大幕。如今，新一代“汽车人”正在不断精进技艺，缩小与世界最高水平的差距，努力踏上自主品牌振兴之路。</div><div style="text-indent:2em;text-align:justify">2018年，我国汽车产销分别完成2780.92万辆和2808.06万辆，连续十年蝉联全球第一。</div>'
 				}, {
-					title: '纺织女工',
+					title: '纺织工人',
 					imgs: [
 						'./assets/images/01/16-3.jpg',
 						'./assets/images/01/15-3.jpg',
@@ -176,7 +175,7 @@
 					desc: '<div style="text-indent:2em;text-align:justify">1959年，新疆克拉玛依油田工人在建设九号集油区（新华社记者武纯展摄）。</div><div style="text-indent:2em;text-align:justify">2019年1月15日，新疆油田公司风城油田作业区员工孙晟（前）和王晓东在重18井区对油井实施增产措施（吴小川摄）。</div><div style="text-indent:2em;text-align:justify">新中国成立初期，面对国际禁运和“中国贫油论”，中国地质学家和石油人打井找油。1955年，在新疆发现克拉玛依油田，缓解了中国工业用油的燃眉之急；1959年，在黑龙江发现大庆油田，中国甩掉了“中国贫油论”的帽子。当前，克拉玛依油田油气当量已连续17年稳产1000万吨/年以上，智慧油田建设也为油气生产注入了新动力。克拉玛依这座“因油而生、因油而兴”的戈壁油城，在一代代拥有“工匠精神”的克拉玛依人的打造下，城市面貌日新月异，人民生活水平稳步提高，克拉玛依正成为“一带一路”上一颗闪亮的明珠。</div>'
 
 				}, {
-					title: '科学家',
+					title: '茶学专家',
 					imgs: [
 						'./assets/images/01/20-3.jpg',
 						'./assets/images/01/19-3.jpg',
@@ -185,7 +184,7 @@
 
 				}],
 			[{
-				title: '计算机',
+				title: '计算机研发人员',
 				imgs: [
 					'./assets/images/02/2-3.jpg',
 					'./assets/images/02/1-3.jpg',
@@ -193,7 +192,7 @@
 				desc: '<div style="text-indent:2em;text-align:justify">1958年，中国科学院计算技术研究所和有关单位在苏联的技术援助下试制成功我国第一台通用电子计算机——“八一”型电子计算机。图为工作人员在观察运行工作中的通用电子计算机（新华社记者李基禄摄）。</div><div style="text-indent:2em;text-align:justify">2019年4月24日，在国家超级计算天津中心“天河三号”原型机机房内，国家超级计算天津中心应用研发部部长孟祥飞（左）和同事一起巡查（新华社记者李然摄）。</div><div style="text-indent:2em;text-align:justify">从依靠国外援助生产出中国第一台计算机，到今天完全由我国自主研发的新一代百亿亿次超级计算机——“天河三号”原型机，一代代中国计算机人怀揣理想与信念，为推动我国科技事业发展不断拼搏努力、克难攻坚。在2019年发布的新一期全球超级计算机500强榜单上，中国超算上榜数量蝉联第一，中国在超算领域的创新能力备受国际业界关注。</div>'
 			},
 			{
-				title: '学校老师',
+				title: '少数民族地区教师',
 				imgs: [
 					'./assets/images/02/4-3.jpg',
 					'./assets/images/02/3-3.jpg',
@@ -201,7 +200,7 @@
 				desc: '<div style="text-indent:2em;text-align:justify">1954年，在云南省普洱市西盟佤族自治县创办的第一所小学——西盟小学，老师带领孩子读书学习（资料照片）。</div><div style="text-indent:2em;text-align:justify">2018年12月7日，云南省西盟佤族自治县勐梭镇班母村佤山育忠幼儿园的孩子跟着老师岩科上音乐课（新华社记者杨宗友摄）。1986年出生的岩科是班母村佤族寨人。他说，我的阿妈小时候没有进过一天学堂，现在，佤山的孩子们都在宽敞明亮的教室里学习。</div><div style="text-indent:2em;text-align:justify">从1954年西盟县创办第一所小学至今，这里的教育发生了翻天覆地的变化——从破旧的土房子到现代化校舍，从最初的基础学习到如今的多样化教学，从培养兴趣到全面发展，从文化教育到素质提升……教育惠及着每个家庭，教育发展为佤族群众带来了看得见、摸得着的福祉。</div>'
 			},
 			{
-				title: '女司机',
+				title: '司机',
 				imgs: [
 					'./assets/images/02/6-3.jpg',
 					'./assets/images/02/5-3.jpg',
@@ -209,7 +208,7 @@
 				desc: '<div style="text-indent:2em;text-align:justify">1959年，贵州黔东南苗族侗族自治州交通局第二汽车运输队的女司机坐在车中（资料照片）。</div><div style="text-indent:2em;text-align:justify">2019年7月5日，在贵州三都水族自治县，水族女司机万兴丽坐在车中（新华社记者欧东衢摄）。</div><div style="text-indent:2em;text-align:justify">万兴丽的驾龄已有20年，她现在是三都交通运输公司的一名司机，驾驶从高铁站到三都的班车。万兴丽告诉记者，二十年前贵州山高路远，司机职业非常辛苦，专职女司机非常少。近年来，随着贵州“县县通高速”，道路条件发生了天翻地覆的变化，专职女司机逐渐增多，开车再也不是一件“苦差事”。</div>'
 			},
 			{
-				title: '畜牧兽医师',
+				title: '畜牧兽医',
 				imgs: [
 					'./assets/images/02/8-3.jpg',
 					'./assets/images/02/7-3.jpg',
@@ -225,7 +224,7 @@
 				desc: '<div style="text-indent:2em;text-align:justify">上世纪50年代，鞍钢大型厂生产重轨的场景（资料照片）。</div><div style="text-indent:2em;text-align:justify">2019年7月5日，工人在鞍钢集团鞍钢股份大型厂百米重轨生产线检查生产情况（新华社记者潘昱龙摄）。</div><div style="text-indent:2em;text-align:justify">鞍钢位于辽宁省鞍山市，70年前，它在千疮百孔中恢复开工，挺起国家建设的钢铁脊梁，点燃了举国上下摆脱一穷二白的希望。如今鞍钢钢铁产能接近4000万吨，成为跻身世界500强的巨型“钢铁航母”。过去鞍钢工人的工作环境十分艰苦，很多一线工人都是顶着高温、吸着粉尘作业。如今，鞍钢工人的工作环境有了明显变化，高温工作岗位配备了降温设备。</div>'
 			},
 			{
-				title: '户籍警察',
+				title: '户籍民警',
 				imgs: [
 					'./assets/images/02/12-3.jpg',
 					'./assets/images/02/11-3.jpg',
@@ -241,7 +240,7 @@
 				desc: '<div style="text-indent:2em;text-align:justify">1958年，在陕西渭南，一名接受培训的防疫员（左）在兽医史德春（中）的指导下学习生猪耳根下注射方法（新华社记者姜国宪摄）。</div><div style="text-indent:2em;text-align:justify">2019年7月2日，陕西省西安市高陵区鹿苑街道药惠村，高陵区动物疫病预防控制中心兽医师张璞（左）、助理兽医师郑新龙（中）使用一次性注射器为养殖户裴夫记（右）饲养的猪注射疫苗（新华社记者张博文摄）。</div><div style="text-indent:2em;text-align:justify">如今，生猪防疫需由具备资质的兽医师操作。在注射疫苗时，防疫人员要穿着全身防护服，避免人畜交叉感染。</div>'
 			},
 			{
-				title: '时装设计',
+				title: '服装设计者',
 				imgs: [
 					'./assets/images/02/16-3.jpg',
 					'./assets/images/02/15-3.jpg',
@@ -268,7 +267,7 @@
 			,
 			[
 				{
-					title: '交警',
+					title: '交通警察',
 					imgs: [
 						'./assets/images/03/2-3.jpg',
 						'./assets/images/03/1-3.jpg',
@@ -276,7 +275,7 @@
 					desc: '<div style="text-indent:2em;text-align:justify">1960年，一名交警在北京市东长安街执勤（新华社记者黄景达摄）。</div><div style="text-indent:2em;text-align:justify">2019年6月26日，北京市交管局中心区支队二中队交警仁俊汉在东长安街指挥路面交通（新华社记者张晨霖摄）。</div><div style="text-indent:2em;text-align:justify">过去，交通警察在交通岗楼执勤，控制信号灯要靠手扳。只要有车走，交警的手就不能停。如今，交通管理手段不断朝着数字化、智能化、现代化发展，交警可以通过大数据判断车流量，用手中的遥控器控制信号灯。同时，随着我国机动车数量与日俱增，他们的工作强度比以往更大。无论刮风、下雨、烈日、严寒，从清晨到黄昏，甚至在深夜，都能看到交警执勤的身影。</div>'
 				},
 				{
-					title: '公交售票',
+					title: '公交车售票员',
 					imgs: [
 						'./assets/images/03/4-3.jpg',
 						'./assets/images/03/3-3.jpg',
@@ -284,7 +283,7 @@
 					desc: '<div style="text-indent:2em;text-align:justify">1960年，北京公交车售票员舒志英在车上售票（新华社记者黄景达摄）。</div><div style="text-indent:2em;text-align:justify">2019年6月27日，乘客在杭州乘坐公交车时使用移动支付完成购票（新华社记者黄宗治摄）。</div><div style="text-indent:2em;text-align:justify">在中国许多城市，昔日的公交车售票员已无需上岗，通常由司机在自助购票机旁辅助值守。乘客购票的支付方式从纸票、月票、IC卡，发展到如今可以实现扫码乘车。公共交通的发展为人们出行提供了越来越多的便利。</div>'
 				},
 				{
-					title: '特色种植',
+					title: '特色种植农民',
 					imgs: [
 						'./assets/images/03/6-3.jpg',
 						'./assets/images/03/5-3.jpg',
@@ -292,7 +291,7 @@
 					desc: '<div style="text-indent:2em;text-align:justify">1962年，在山西永济，虞乡公社社员收摘中药红花（新华社记者董荣贵摄）。</div><div style="text-indent:2em;text-align:justify">2019年4月10日，山西平定县冠山镇后沟村村民在采摘连翘叶（新华社记者曹阳摄）。</div><div style="text-indent:2em;text-align:justify">随着人民生活水平的提高，人们对健康的重视度与日俱增，中药材等特色种植业发展迅速。在山西平定，当地因地制宜大力发展连翘种植产业，成立农业合作社吸纳附近村民务工。特色种植不仅拓宽了农民的增收渠道，更为他们脱贫致富打下坚实基础。</div>'
 				},
 				{
-					title: '上海美术电影制片厂',
+					title: '动画制作人',
 					imgs: [
 						'./assets/images/03/8-3.jpg',
 						'./assets/images/03/7-3.jpg',
@@ -300,7 +299,7 @@
 					desc: '<div style="text-indent:2em;text-align:justify">上世纪60年代，动画片艺术家万籁鸣在构思彩色动画片《大闹天宫》（下集）中的人物形象（新华社记者林慧摄）。</div><div style="text-indent:2em;text-align:justify">2019年6月20日，上海美术电影制片厂厂长、3D动画电影《孙悟空之火焰山》导演速达审看片中孙悟空的造型图（新华社记者刘颖摄）。</div><div style="text-indent:2em;text-align:justify">上世纪60年代，著名动画艺术家万籁鸣和他的团队为了创作动画片《大闹天宫》，用铅笔画了10万多张画面。如今，上海美术电影制片厂厂长速达和她的团队在创作电影《孙悟空之火焰山》（预计2021年上映）时使用了三维动画等高科技技术。国产动画片正在不断创造新的辉煌。2019年，《哪吒之魔童降世》成为首部总票房破40亿元的国产动画电影。</div>'
 				},
 				{
-					title: '钢铁工人',
+					title: '包钢工人',
 					imgs: [
 						'./assets/images/03/10-3.jpg',
 						'./assets/images/03/9-3.jpg',
@@ -324,7 +323,7 @@
 					desc: '<div style="text-indent:2em;text-align:justify">1961年，新疆维吾尔自治区博物馆的工作人员正在修复从吐鲁番阿斯塔那古墓中发掘出来的唐代泥塑、马俑（新华社记者武纯展摄）。</div><div style="text-indent:2em;text-align:justify">2019年7月30日，新疆维吾尔自治区博物馆文物科技保护中心工作人员梁江兵（左）、高愚民（中）、关懿在使用仪器设备修复文物（新华社记者胡虎虎摄）。</div><div style="text-indent:2em;text-align:justify">从简陋的工作条件、单一的修复工具、全靠手工的工作方式，到如今良好的办公环境，现代化文物修复仪器设备与传统工艺相结合的修复方法，文物修复工作者的工作方式发生了很大变化。文物修复软硬件条件明显改善，为保护传承历史文化提供了良好保障。</div>'
 				},
 				{
-					title: '乳业工人',
+					title: '奶牛饲养员',
 					imgs: [
 						'./assets/images/03/16-3.jpg',
 						'./assets/images/03/15-3.jpg',
@@ -359,7 +358,7 @@
 					desc: '<div style="text-indent:2em;text-align:justify">1962年，山西太原林香斋饭店的厨师匡茂彩端出一盘新做的糖醋鱼（新华社记者花皑摄）。</div><div style="text-indent:2em;text-align:justify">2019年6月6日，在山西太原林香斋饭店，厨师张澜在给糖醋鱼浇汁（新华社记者詹彦摄）。</div><div style="text-indent:2em;text-align:justify">张澜说，在林香斋饭店，经常听前辈们说起匡茂彩大厨，他在林香斋任职期间做了很多代表菜，香酥鸡、过油肉、糖醋鱼……得到了当时顾客广泛认可，获得了口口相传的好口碑。现在从事烹饪工作，相比以前食材更丰富，厨房设备更先进，食品卫生与安全方面的要求也更加严格。他希望自己和同事们能在继承传统烹饪技艺的基础上进行创新，做出与时俱进的菜品，让更多的顾客认可。</div>'
 				},
 				{
-					title: '品酒师',
+					title: '酿酒师',
 					imgs: [
 						'./assets/images/04/4-3.jpg',
 						'./assets/images/04/3-3.jpg',
@@ -367,7 +366,7 @@
 					desc: '<div style="text-indent:2em;text-align:justify">1963年9月20日，北京葡萄酒厂的厂长、技术人员和老工人正在品鉴即将出厂的白葡萄酒（资料照片）。</div><div style="text-indent:2em;text-align:justify">2019年6月24日，在位于宁夏银川市的张裕摩塞尔十五世酒庄，年轻的酿酒师于千、樊志强、张浩、王转荣（从左至右）正在品鉴酒庄生产的几款葡萄酒（新华社记者冯开华摄）。</div><div style="text-indent:2em;text-align:justify">从技术工人到专业化程度极高的酿酒师，酿酒师的职业变化见证着中国葡萄酒产业的迅速发展。葡萄种植和葡萄酒酿造技术日趋精进，中国的葡萄酒产品屡次在国际大赛中获奖，形成了一批在国内外具有一定市场认知度和影响力的葡萄酒品牌。葡萄酒产区的酒庄也迎来越来越多的“品酒”体验者和观光客。</div>'
 				},
 				{
-					title: '出租车',
+					title: '出租车司机',
 					imgs: [
 						'./assets/images/04/6-3.jpg',
 						'./assets/images/04/5-3.jpg',
@@ -375,7 +374,7 @@
 					desc: '<div style="text-indent:2em;text-align:justify">1965年，北京首都汽车公司职工在出租站擦洗汽车（新华社记者郑震孙摄）。</div><div style="text-indent:2em;text-align:justify">2019年8月25日，北京新月联合出租汽车公司司机穆怀东一边运送乘客，一边通过网约车手机平台接收订单信息（新华社记者张笑宇摄）。</div><div style="text-indent:2em;text-align:justify">中国出租车行业发展迅速。从汽车出租不普及的年代到路上招手打车，再到手机软件叫车，快车、专车等各种网约车方便了人们的出行，出租车司机的工作效率也大大提高。</div>'
 				},
 				{
-					title: '火车头检修工',
+					title: '火车检修工',
 					imgs: [
 						'./assets/images/04/8-3.jpg',
 						'./assets/images/04/7-3.jpg',
@@ -391,7 +390,7 @@
 					desc: '<div style="text-indent:2em;text-align:justify">1963年，浙江杭州云裳丝织厂技术革新小组在调试更新设备（新华社记者章耕辛摄）。</div><div style="text-indent:2em;text-align:justify">2019年6月12日，工人钱琴姝在江苏苏州市吴江区盛泽镇江苏华佳丝绸股份有限公司车间进行络丝作业（新华社记者李响摄）。</div><div style="text-indent:2em;text-align:justify">从上世纪五六十年代使用自制的铁木丝织机，发展到如今使用剑杆织机、喷气喷水织机等设备，技术的改良提升了纺织工人的工作效率。一些纺织企业在智能制造的助力下，实现生产工序的自动化、数字化，降低了纺织工人的劳动强度。</div>'
 				},
 				{
-					title: '水渠工',
+					title: '水渠建设者',
 					imgs: [
 						'./assets/images/04/12-3.jpg',
 						'./assets/images/04/11-3.jpg',
@@ -399,7 +398,7 @@
 					desc: '<div style="text-indent:2em;text-align:justify">1963年，新疆吐鲁番五星公社社员在整修坎儿井渠道（新华社记者武纯展摄）。</div><div style="text-indent:2em;text-align:justify">2019年7月7日，在新疆塔什库尔干塔吉克自治县达布达尔乡热斯喀木村，工人操作挖掘机铺设防渗、防蒸发的灌溉管道（新华社记者胡虎虎摄）。</div><div style="text-indent:2em;text-align:justify">从吐鲁番延续千年的地下灌溉工程坎儿井，到帕米尔高原上防渗、防蒸发的灌溉管道；从主要依靠人工修整，到机械施工……新疆当地百姓取水用水的渠道越来越多样。</div>'
 				},
 				{
-					title: '乡村教师',
+					title: '乡村小学教师',
 					imgs: [
 						'./assets/images/04/14-3.jpg',
 						'./assets/images/04/13-3.jpg',
@@ -415,7 +414,7 @@
 					desc: '<div style="text-indent:2em;text-align:justify">1961年，广州市航海俱乐部潜水教练员给潜水员戴上水下定向指南针准备潜水（新华社记者王南摄）。</div><div style="text-indent:2em;text-align:justify">2019年6月23日，在海南省陵水黎族自治县分界洲岛旅游区，潜水教练符育铭（左）为即将带游客潜水的潜水长黄基全整理装备（新华社记者杨冠宇摄）。</div><div style="text-indent:2em;text-align:justify">新中国成立以来，潜水运动在我国逐渐发展起来，参与者越来越多。休闲潜水作为一种充满挑战性和趣味性的休闲方式，正逐渐走入人们的生活。随着现代科技的发展，潜水装备也从最初简单的气瓶、蛙鞋发展到现在的潜水电脑表、智能潜水辅助器等高科技设备，日趋多样先进。</div>'
 				},
 				{
-					title: '采珠女',
+					title: '采珠人',
 					imgs: [
 						'./assets/images/04/18-3.jpg',
 						'./assets/images/04/17-3.jpg',
@@ -433,7 +432,7 @@
 			],
 			[
 				{
-					title: '考古',
+					title: '兵马俑文物保护工作者',
 					imgs: [
 						'./assets/images/05/2-3.jpg',
 						'./assets/images/05/1-3.jpg',
@@ -441,7 +440,7 @@
 					desc: '<div style="text-indent:2em;text-align:justify">1974年，时任秦始皇兵马俑考古队领队的袁仲一在陕西西安兵马俑一号坑发掘现场进行文物清理工作（秦始皇帝陵博物院提供）。</div><div style="text-indent:2em;text-align:justify">2019年7月4日，秦始皇帝陵博物院文物保护部副研究员兰德省在兵马俑一号坑修复现场对新修复的兵马俑进行彩绘加固保护（新华社记者李一博摄）。</div><div style="text-indent:2em;text-align:justify">1974年，兵马俑的发现震惊了世界。1987年，联合国教科文组织将秦始皇陵及兵马俑坑列入《世界遗产名录》。位于陕西省西安市临潼区的秦始皇帝陵博物院先后建立了显微分析实验室、扫描电镜实验室、微生物实验室、文物保存环境实验室、化学实验室、彩绘文物修复室、综合文物修复室等，用最先进的文物科技保护技术为兵马俑的保护修复提供保障，文物修复工作者的工作方式也进入科技时代，兵马俑修复多项技术获得国家专利。</div>'
 				},
 				{
-					title: '治沙研究人员',
+					title: '沙漠科研人员',
 					imgs: [
 						'./assets/images/05/4-3.jpg',
 						'./assets/images/05/3-3.jpg',
@@ -449,7 +448,7 @@
 					desc: '<div style="text-indent:2em;text-align:justify">1979年，中国科学院新疆分院生物沙漠土壤研究所科研人员夏训诚（右一）在罗布泊西部取沙漠样品（新华社记者赵昌春摄）。</div><div style="text-indent:2em;text-align:justify">2019年5月30日，中国生态系统研究网络沙坡头沙漠实验研究站工作人员王炳尧（右）、李云飞在宁夏中卫市境内腾格里沙漠南缘检测沙丘表面温度（新华社记者王鹏摄）。</div><div style="text-indent:2em;text-align:justify">上世纪50年代，新中国开始对沙漠进行治理。我国沙漠科学家从研究沙漠开始入手，发明了中国的“治沙神器”草方格。1977年，作为中国治沙经验的沙坡头麦草方格，获得国外专家一致认可，并成为最早向世界输出的中国治沙方案。近年来，我国国土绿化和防沙治沙工程不断推进，从“沙进人退”到“绿进沙退”的历史性转变，离不开一代代沙漠科研人员的努力奋斗。</div>'
 				},
 				{
-					title: '电视机组装',
+					title: '电视生产者',
 					imgs: [
 						'./assets/images/05/6-3.jpg',
 						'./assets/images/05/5-3.jpg',
@@ -473,7 +472,7 @@
 					desc: '<div style="text-indent:2em;text-align:justify">1977年，河南郑州铁路局信阳分局孝子店养路工区巡道工芦利连在夜间巡道（新华社记者樊鸣涛摄）。</div><div style="text-indent:2em;text-align:justify">2019年1月21日，中国铁路郑州局集团有限公司郑州工务机械段的钢轨探伤工准备出乘作业（新华社记者李安摄）。</div><div style="text-indent:2em;text-align:justify">过去，巡道工只能走上铁轨，通过观察、用锤子敲等方法探查轨道。如今，巡道作业引入探伤车等先进设备辅助人工巡查。探伤工驾驶钢轨探伤车在铁路线上穿梭忙碌，为钢轨“把脉问诊”，及时发现并消除钢轨问题隐患。</div>'
 				},
 				{
-					title: '景德镇瓷工',
+					title: '景德镇陶瓷生产者',
 					imgs: [
 						'./assets/images/05/12-3.jpg',
 						'./assets/images/05/11-3.jpg',
@@ -489,7 +488,7 @@
 					desc: '<div style="text-indent:2em;text-align:justify">1977年，河北石家庄分局石家庄列车段的列车员邸敬茹为乘客送热水（新华社记者朱力摄）。</div><div style="text-indent:2em;text-align:justify">2019年1月21日，在重庆西开往广州南的D1867次列车上，列车员在车厢内为旅客送上新春祝福（包亮摄）。</div><div style="text-indent:2em;text-align:justify">新中国成立以来，伴随着列车提速升级和车厢环境改善，列车员的着装与仪容也发生了显著变化。现在，列车员的作业流程更加规范化，工作中也更加注重细节，力求为旅客出行提供更专业、更优质的服务。</div>'
 				},
 				{
-					title: '制陶',
+					title: '坭兴陶技艺传承人',
 					imgs: [
 						'./assets/images/05/16-3.jpg',
 						'./assets/images/05/15-3.jpg',
@@ -515,7 +514,7 @@
 			],
 			[
 				{
-					title: '下水道工人',
+					title: '环卫工人',
 					imgs: [
 						'./assets/images/06/2-3.jpg',
 						'./assets/images/06/1-3.jpg',
@@ -523,7 +522,7 @@
 					desc: '<div style="text-indent:2em;text-align:justify">1983年，湖北省黄石市城乡建设局市政工程管理处下水道班的工人进行清污工作（燕杨摄）。</div><div style="text-indent:2em;text-align:justify">2019年6月25日，山东省高唐县市政路桥工程有限责任公司员工金兴环用遥控器操纵清淤车，对城区污水管道检查井沉淀池进行清掏作业（新华社记者王凯摄）。</div><div style="text-indent:2em;text-align:justify">排淤工人是城市血管的“清道夫”，他们经常穿梭在地下管网中，在黑暗、污浊、臭气熏人的排水井下为城市清理阻塞物和泥浆。近年来，机械化设备被应用在环卫工作中，排淤工作效率大大提升。</div>'
 				},
 				{
-					title: '保姆',
+					title: '保姆与月嫂',
 					imgs: [
 						'./assets/images/06/4-3.jpg',
 						'./assets/images/06/3-3.jpg',
@@ -547,7 +546,7 @@
 					desc: '<div style="text-indent:2em;text-align:justify">1986年，在广东省连南瑶族自治县，乡村医生房志荣（右二）下乡为群众看病（新华社记者周家国摄）。</div><div style="text-indent:2em;text-align:justify">2019年7月18日，福建武夷山市上梅乡茶景村乡村医生余淼春（右）上门为贫困老人罗春风（左三）看病（新华社记者张国俊摄）。</div><div style="text-indent:2em;text-align:justify">虽然现在农村整体医疗条件有了很大改善，但对于偏远乡村来说，仍非常需要长期扎根的乡村医生。今年42岁的余淼春19岁从卫校毕业后回到家乡当村医。20多年来，他奔走在茶景村各处，为方圆十几公里的乡亲送医送药。</div>'
 				},
 				{
-					title: '民宿主',
+					title: '民宿经营者',
 					imgs: [
 						'./assets/images/06/10-3.jpg',
 						'./assets/images/06/9-3.jpg',
@@ -555,7 +554,7 @@
 					desc: '<div style="text-indent:2em;text-align:justify">1984年7月，在内蒙古呼和浩特，刘玉林在自家人开设的新成旅馆为客人准备卧具（新华社记者施长江摄）。</div><div style="text-indent:2em;text-align:justify">2019年6月30日，浙江省宁波市奉化区大堰镇明湖山庄民宿经营者李华在院子里打理花草（新华社记者黄宗治摄）。</div><div style="text-indent:2em;text-align:justify">来自江苏常州的李华2017年开始在浙江宁波的偏远山村与朋友合伙经营民宿，现有的12间客房由村里的老建筑改造而来。“来住的客人都可以感受到我是用心在服务，我经常带着客人一起在乡间玩耍，他们如同住在自己家里一样。”李华说。近年来，民宿产业蓬勃发展，对发展乡村旅游、实现乡村振兴发挥着重要作用。</div>'
 				},
 				{
-					title: '边防员',
+					title: '海岸巡逻人员',
 					imgs: [
 						'./assets/images/06/12-3.jpg',
 						'./assets/images/06/11-3.jpg',
@@ -571,7 +570,7 @@
 					desc: '<div style="text-indent:2em;text-align:justify">1984年，重庆市第一建筑工程公司工人在该公司工地施工（资料照片）。</div><div style="text-indent:2em;text-align:justify">2019年7月9日，中铁十五局工人在重庆鹅公岩轨道专用桥施工现场作业（新华社记者王全超摄）。</div><div style="text-indent:2em;text-align:justify">城市的日新月异，离不开建筑工人的勤劳与汗水。如今，建筑工人的专业化程度、知识与技能有了较大提升，建筑工地的管理和运作也更加安全、科学和人性化。</div>'
 				},
 				{
-					title: '铁道兵',
+					title: '道工程人员',
 					imgs: [
 						'./assets/images/06/16-3.jpg',
 						'./assets/images/06/15-3.jpg',
@@ -587,7 +586,7 @@
 					desc: '<div style="text-indent:2em;text-align:justify">1984年，原四川省平武县林业局助理工程师钟肇敏（左）给野生大熊猫幼崽“龙龙”喂食（新华社记者金勖琪摄）。</div><div style="text-indent:2em;text-align:justify">5月26日，在中国大熊猫保护研究中心卧龙神树坪基地，饲养员在照顾“熊猫幼儿园”内的大熊猫（新华社记者薛玉斌摄）。</div><div style="text-indent:2em;text-align:justify">2016年，世界自然保护联盟将大熊猫从“濒危”物种调整为“易危”物种。这不仅仅是中国不懈努力的结果，也是全球保护工作的重大成果之一。如今，中国大熊猫保护工作者传承老一辈精神，不仅攻克了圈养大熊猫人工繁育“发情难”“配种受孕难”“育幼成活难”三大难题，还在不断增加大熊猫野化放归数量，努力改善野生大熊猫遗传多样性，实现大熊猫野外种群的可持续发展。</div>'
 				},
 				{
-					title: '个体户',
+					title: '义乌小商品经营者',
 					imgs: [
 						'./assets/images/06/20-3.jpg',
 						'./assets/images/06/19-3.jpg',
@@ -605,7 +604,7 @@
 					desc: '<div style="text-indent:2em;text-align:justify">1987年，上海市南京美发公司特级理发师张学明（左）和同事在为两名女士设计发型（新华社记者柳中央摄）。</div><div style="text-indent:2em;text-align:justify">2019年7月26日，在上海市南京美发公司，发型师李德中在为客户整理发型（新华社记者丁汀摄）。</div><div style="text-indent:2em;text-align:justify">李德中告诉记者，上海市南京美发公司是一家拥有87年历史的老店，靠着良好的口碑和品牌形象走到今天，店中老师傅最长的已在此工作43年。现在，年轻的发型师在老师傅的言传身教下，在保留过硬基本功的同时更加注重潮流元素，借助先进的美发设备，为顾客设计出更时尚的发型。</div>'
 				},
 				{
-					title: '火车售票员',
+					title: '火车站售票员',
 					imgs: [
 						'./assets/images/07/4-3.jpg',
 						'./assets/images/07/3-3.jpg',
@@ -629,7 +628,7 @@
 					desc: '<div style="text-indent:2em;text-align:justify">1981年，江苏苏州越溪公社社员在业余时间刺绣（新华社记者高梅及摄）。</div><div style="text-indent:2em;text-align:justify">2019年6月11日，在江苏省苏州市镇湖街道苏绣小镇，姚惠芬（左）和妹妹姚惠琴研究苏绣作品的刺绣针法（新华社记者李响摄）。</div><div style="text-indent:2em;text-align:justify">苏绣是中国四大名绣之一。出生于刺绣世家的姚惠芬首创了“简针绣”技法，并对中国水墨写意刺绣及人物肖像刺绣进行了大胆探索，在刺绣技法和审美内涵方面取得许多突破。</div>'
 				},
 				{
-					title: '建筑测量工程师',
+					title: '测量工程师',
 					imgs: [
 						'./assets/images/07/10-3.jpg',
 						'./assets/images/07/9-3.jpg',
@@ -637,7 +636,7 @@
 					desc: '<div style="text-indent:2em;text-align:justify">1984年，重庆市第一建筑工程公司测量工程师在该公司工地施工现场作业（资料照片）。</div><div style="text-indent:2em;text-align:justify">2019年1月17日，中建三局测量工程师在重庆万科超高层项目二期塔楼施工现场作业（新华社记者王全超摄）。</div><div style="text-indent:2em;text-align:justify">随着工程建设技术的不断发展，大型工程建设项目的不断开工，工程测量的应用获得较大发展，测量工程师也逐渐成为热门职业，同时也有了更高的职业要求。</div>'
 				},
 				{
-					title: '长客',
+					title: '列车生产者',
 					imgs: [
 						'./assets/images/07/12-3.jpg',
 						'./assets/images/07/11-3.jpg',
@@ -645,7 +644,7 @@
 					desc: '<div style="text-indent:2em;text-align:justify">这是上世纪90年代的长春客车厂载客列车装配生产线（资料照片）。</div><div style="text-indent:2em;text-align:justify">2019年6月20日，中车长春轨道客车股份有限公司（中车长客）工人唐建坤（前）在中车长客高速动车组制造中心检查“复兴号”动车组列车底部电气系统（新华社记者张楠摄）。</div><div style="text-indent:2em;text-align:justify">从“绿皮车”到“复兴号”高铁，从时速80公里到时速350公里，中国载客列车几经更迭换代。如今，中国高铁已成为中国的一张闪亮名片，工作在列车生产线上的劳动者们见证了中国高铁告别跟跑者历史、驶向领跑者位置的新征程。</div>'
 				},
 				{
-					title: '惠安石雕工人',
+					title: '雕刻师',
 					imgs: [
 						'./assets/images/07/14-3.jpg',
 						'./assets/images/07/13-3.jpg',
@@ -653,7 +652,7 @@
 					desc: '<div style="text-indent:2em;text-align:justify">1988年，福建泉州市惠安县石雕厂影雕师刘碧兰在石头上雕刻（新华社记者黄兴泉摄）。</div><div style="text-indent:2em;text-align:justify">2019年7月9日，福建省工艺美术大师、非遗项目惠安石雕代表性传承人张振雄（左）与公司员工一起雕刻彩色影雕作品（新华社记者魏培全摄）。</div><div style="text-indent:2em;text-align:justify">福建惠安石雕已有上千年历史，2006年入选首批国家级非物质文化遗产名录。影雕技艺自古“传女不传男”，影雕工人过去只雕刻黑白影雕。如今，“传女不传男”的传统早已打破。惠安县目前拥有一大批影雕大师团队和数万名相关从业人员。随着产业不断转型升级，彩色影雕成为主流，产品远销日本、韩国等100多个国家和地区。</div>'
 				},
 				{
-					title: '寿光蔬菜种植户',
+					title: '蔬菜种植户',
 					imgs: [
 						'./assets/images/07/16-3.jpg',
 						'./assets/images/07/15-3.jpg',
@@ -661,7 +660,7 @@
 					desc: '<div style="text-indent:2em;text-align:justify">1997年，山东寿光五台镇仉东村的程淑英在大棚里收摘新近引进的状元红甜瓜（新华社记者张鲁成摄）。</div><div style="text-indent:2em;text-align:justify">2019年6月26日，山东寿光稻田镇崔西村村民崔新建演示用手机APP调节大棚的温度和湿度（新华社记者朱峥摄）</div><div style="text-indent:2em;text-align:justify">上世纪80年代末，山东寿光农民率先在国内利用冬暖式大棚种植反季节蔬菜，成为中国北方地区的一个重要蔬菜基地。如今，寿光农民借助先进的“物联网”技术，大力推广水肥一体化、智能放风机、植物生长灯等先进设备，菜农足不出户就能实现对蔬菜大棚的监管，引领大棚发展的现代化转型。</div>'
 				},
 				{
-					title: '教师',
+					title: '青藏高原教师',
 					imgs: [
 						'./assets/images/07/18-3.jpg',
 						'./assets/images/07/17-3.jpg',
@@ -669,7 +668,7 @@
 					desc: '<div style="text-indent:2em;text-align:justify">1991年，拉萨市一所小学学前班的孩子们在老师的指导下书写藏文字母（新华社记者觉果摄）。</div><div style="text-indent:2em;text-align:justify">2019年7月5日，西藏拉萨市海城小学学生在老师强巴格桑指导下上电脑课（新华社记者普布扎西摄）。</div><div style="text-indent:2em;text-align:justify">过去，西藏的老师们大多在简易的教室里教书。随着现代教育的办学规模不断扩大，西藏学校的教学环境大大改善。如今，西藏已全面落实15年义务教育免费“三包”政策，农牧区家长的教育观念也越来越强。</div>'
 				},
 				{
-					title: '记者',
+					title: '摄影记者',
 					imgs: [
 						'./assets/images/07/20-3.jpg',
 						'./assets/images/07/19-3.jpg',
@@ -691,11 +690,12 @@
 			}
 			var html = '';
 			var s = this;
+			var className = ''
 			this.imgList[this.currentIndex].forEach(function (img, i) {
 				if (img.title) {
 
 
-					var className = ''
+					
 					if (s.zmitiTitle.classList.contains('hide')) {
 						className = 'hide'
 					}
@@ -724,6 +724,22 @@
 
 			var s = this;
 			(this.$('#container').innerHTML = html);
+			console.log(this.$('#container'))
+			var next = '——精彩延续 敬待下期';
+			if(this.currentIndex>=6){
+				next =  '';
+			}
+			this.$('#container').innerHTML += "<div class='zmiti-swpier-item " + className + "' style='text-align:center;text-indent:0;' id='zmiti-group-name'>第" + (this.currentIndex + 1) + "期" + next + "<div style='display:" + (!next? 'block':'none')+";text-align:left;text-indent:1em'>往期回顾</div></div>"
+
+			var prevsObj = document.createElement('div');
+			prevsObj.className = "zmiti-swpier-item zmiti-prev-list " + className;
+			for(var i = 0; i < this.currentIndex;i++){
+				var name = i === 0 ? '':'_'+(i+1);
+				var href = window.location.protocol + '//h5.zhongguowangshi.com/h5/' + window.h5name + '/index' + name+'.html';
+				prevsObj.innerHTML += '<div><a href="' + href +'">第' + (i + 1) +'期</a></div>';
+			}
+
+			this.$('#container').appendChild(prevsObj);
 
 			var likes = this.$$('.zmiti-like');
 			likes.forEach(function (like, k) {
@@ -817,9 +833,9 @@
 			this.container = this.container || this.$('#container');
 			this.zmitiTitle = this.zmitiTitle || s.$('#zmiti-title-C');
 			var className = ''
-			if (this.zmitiTitle.classList.contains('hide')) {
+			/* if (this.zmitiTitle.classList.contains('hide')) {
 				className = 'hide'
-			}
+			} */
 
 			this.container.innerHTML = '<div class="zmiti-swpier-item ' + className + ' loading" style="height:800px;position:relative;z-index:1;"><span  id="zmiti-loading-text">数据加载中...</span></div>';
 			var loadingText = s.$('#zmiti-loading-text');
@@ -1056,7 +1072,8 @@
 	}
 
 	var arr = ['一', '二', '三', '四', '五', '六', '七'];
-	util.$('#zmiti-group-name').innerHTML = '第' + arr[util.currentIndex] + '组';
+	//第X期——精彩延续 敬待下期
+	//util.$('#zmiti-group-name').innerHTML = '第' + arr[util.currentIndex] + '期——精彩延续 敬待下期';
 	util.init(1);
 
 
