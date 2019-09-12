@@ -111,7 +111,7 @@
 						'./assets/images/01/2-3.jpg',
 						'./assets/images/01/1-3.jpg',
 					],
-					desc: '<div style="text-indent:2em;text-align:justify">1949年10月8日，黑龙江讷河农民在秋收（王纯德摄）。</div><div style="text-indent:2em;text-align:justify">2019年5月31日，在山东省济宁市嘉祥县仲山镇，雷沃重工股份有限公司工作人员在遥控指挥自动驾驶收割机作业（新华社记者郭绪雷摄）。</div><div style="text-indent:2em;text-align:justify">从“面朝黄土背朝天”的人工收割，到智能化、自动化收割，技术的进步正在把农民从艰苦的田间劳动逐步解放出来。如今，无人驾驶收割机安装了自动驾驶系统，可以实现高精准定位，自动路径规划和无人驾驶行进。</div>'
+					desc: '<div style="text-indent:2em;text-align:justify">1949年10月8日，黑龙江讷河农民在秋收（新华社记者王纯德摄）。</div><div style="text-indent:2em;text-align:justify">2019年5月31日，在山东省济宁市嘉祥县仲山镇，雷沃重工股份有限公司工作人员在遥控指挥自动驾驶收割机作业（新华社记者郭绪雷摄）。</div><div style="text-indent:2em;text-align:justify">从“面朝黄土背朝天”的人工收割，到智能化、自动化收割，技术的进步正在把农民从艰苦的田间劳动逐步解放出来。如今，无人驾驶收割机安装了自动驾驶系统，可以实现高精准定位，自动路径规划和无人驾驶行进。</div>'
 				},
 				{
 					title: '新生儿护士',
@@ -119,7 +119,7 @@
 						'./assets/images/01/4-3.jpg',
 						'./assets/images/01/3-3.jpg',
 					],
-					desc: '<div style="text-indent:2em;text-align:justify">1950年，辽宁鞍山职工医院医务人员在为婴儿称体重（王纯德摄）。</div><div style="text-indent:2em;text-align:justify">2019年7月19日，在内蒙古呼和浩特，内蒙古自治区人民医院新生儿科护士长杨晓玲（右）和同事用多功能保温箱为婴儿称体重（新华社记者彭源摄）。</div><div style="text-indent:2em;text-align:justify">新中国新生儿医疗护理水平取得巨大进步，新生儿科医务工作人员的工作条件也发生了巨大的变化。在内蒙古自治区人民医院，新生儿科设有新生儿重症监护病区，并配置进口呼吸机、辐射抢救台、封闭式婴儿培养箱等先进设备。</div>'
+					desc: '<div style="text-indent:2em;text-align:justify">1950年，辽宁鞍山职工医院医务人员在为婴儿称体重（新华社记者王纯德摄）。</div><div style="text-indent:2em;text-align:justify">2019年7月19日，在内蒙古呼和浩特，内蒙古自治区人民医院新生儿科护士长杨晓玲（右）和同事用多功能保温箱为婴儿称体重（新华社记者彭源摄）。</div><div style="text-indent:2em;text-align:justify">新中国新生儿医疗护理水平取得巨大进步，新生儿科医务工作人员的工作条件也发生了巨大的变化。在内蒙古自治区人民医院，新生儿科设有新生儿重症监护病区，并配置进口呼吸机、辐射抢救台、封闭式婴儿培养箱等先进设备。</div>'
 				},
 				{
 					title: '婚姻登记员',
@@ -180,7 +180,7 @@
 						'./assets/images/01/20-3.jpg',
 						'./assets/images/01/19-3.jpg',
 					],
-					desc: '<div style="text-indent:2em;text-align:justify">1954年，武汉大学茶学专业毕业的肖时英（右）、张木兰夫妇在云南野生茶树旁合影（肖时英提供）。</div><div style="text-indent:2em;text-align:justify">2019年5月27日，86岁的肖时英（左二）在云南普洱市现代生态有机茶园为学生实地授课（新华社记者薛东梅摄）。</div><div style="text-indent:2em;text-align:justify">上世纪50年代，现在的普洱茶主产区云南省，大部分是野生茶树，缺乏良种，产量低下。肖时英、张木兰是共和国培养的第一批大学生，跋山涉水来到边疆。几十年来他们扎根基层，开展茶籽育苗、茶树扦插、茶树嫁接等多种繁殖方法试验，有效解决茶园规模化种植发展中的茶苗供给难题。今天的云南省普洱市，土地利用率和茶叶产量大幅提升，多品种组合种植、修剪多个采摘面的“立体生态茶园”实现丰产丰收，增加了茶园综合经济效益。</div>'
+					desc: '<div style="text-indent:2em;text-align:justify">1954年，武汉大学茶学专业毕业的肖时英（右）、张木兰夫妇在云南野生茶树旁合影（肖时英提供）。</div><div style="text-indent:2em;text-align:justify">2019年5月27日，86岁的肖时英（左二）在云南普洱市现代生态有机茶园为学生实地授课（新华社记者薛东梅摄）。</div><div style="text-indent:2em;text-align:justify">上世纪50年代，现在的普洱茶主产区云南省，大部分是野生茶树，缺乏良种，产量低下。肖时英、张木兰是共和国培养的第一批大学生，跋山涉水来到边疆。几十年来他们扎根基层，开展茶籽育苗、茶树扦插、茶树嫁接等多种繁殖方法试验，有效解决茶园规模化种植发展中的茶苗供给难题。今天的云南省普洱市，土地利用率和茶叶产量大幅提升，多品种组合种植、修剪多个采摘面的“立体生态茶园”实现丰产丰收，提升了茶园综合经济效益。</div>'
 
 				}],
 			[{
@@ -213,7 +213,7 @@
 					'./assets/images/02/8-3.jpg',
 					'./assets/images/02/7-3.jpg',
 				],
-				desc: '<div style="text-indent:2em;text-align:justify">1959年，在青海省海北藏族自治州门源回族自治县的苏吉滩公社，畜牧兽医余中学正在给牧民讲解治疗犊牛副伤寒的技术和理论（新华社记者李景瑞摄）。</div><div style="text-indent:2em;text-align:justify">2019年6月27日，在青海省海北藏族自治州门源县苏吉滩乡察汉达吾村，县畜牧兽医站站长刘文先给村级动物防疫员讲解包虫病的防治（新华社记者张龙摄）。</div><div style="text-indent:2em;text-align:justify">过去，我国的兽医从业人员大多凭借传统经验开展兽医工作，很少接受过专门的培训。现在，基层兽医站的工作人员大多接受过系统的兽医职业教育培训。他们深入到农牧民群众身边，利用现代化演示和通讯手段，为基层动物防疫人员和牧民开展畜牧业养殖、病害防治等技术培训，为当地畜牧业繁荣发展保驾护航。</div>'
+				desc: '<div style="text-indent:2em;text-align:justify">1959年，在青海省海北藏族自治州门源回族自治县，畜牧兽医余中学在给牧民讲解治疗犊牛副伤寒的技术和理论（新华社记者李景瑞摄）。</div><div style="text-indent:2em;text-align:justify">2019年6月27日，在青海省海北藏族自治州门源回族自治县苏吉滩乡察汉达吾村，县畜牧兽医站站长刘文先给村级动物防疫员讲解包虫病的防治（新华社记者张龙摄）。</div><div style="text-indent:2em;text-align:justify">过去，我国的兽医从业人员大多凭借传统经验开展兽医工作，很少接受过专门的培训。现在，基层兽医站的工作人员大多接受过系统的兽医职业教育培训。他们深入到农牧民群众身边，利用现代化演示和通讯手段，为基层动物防疫人员和牧民开展畜牧业养殖、病害防治等技术培训，为当地畜牧业繁荣发展保驾护航。</div>'
 			},
 			{
 				title: '鞍钢工人',
@@ -253,7 +253,7 @@
 					'./assets/images/02/18-3.jpg',
 					'./assets/images/02/17-3.jpg',
 				],
-				desc: '<div style="text-indent:2em;text-align:justify">1958年，在湖北五峰山，灯塔农业社的工作人员将采摘后的鲜叶进行温室加湿处理（李德义摄）。</div><div style="text-indent:2em;text-align:justify">2018年4月11日，福建武夷山市桐木村茶农、正山小种红茶制作技艺传承人江元勋（右二）指导当地茶农制作红茶（新华社记者张国俊摄）。</div><div style="text-indent:2em;text-align:justify">桐木村茶农江元勋介绍，过去由于生产经营模式落后，产品销路不畅，茶农收入低。如今，茶叶形成了规模化、产业化生产，传统工艺不断改良。越来越多的村民加入到这个行列，茶叶生产已成为当地支柱产业。</div>'
+				desc: '<div style="text-indent:2em;text-align:justify">1958年，在湖北恩施，农民将采摘后的鲜叶进行温室加湿处理（新华社记者李德义摄）。</div><div style="text-indent:2em;text-align:justify">2018年4月11日，福建武夷山市桐木村茶农、正山小种红茶制作技艺传承人江元勋（右二）指导当地茶农制作红茶（新华社记者张国俊摄）。</div><div style="text-indent:2em;text-align:justify">桐木村茶农江元勋介绍，过去由于生产经营模式落后，产品销路不畅，茶农收入低。如今，茶叶形成了规模化、产业化生产，传统工艺不断改良，茶叶生产已成为当地支柱产业。</div>'
 			},
 			{
 				title: '黄河摆渡人',
@@ -288,7 +288,7 @@
 						'./assets/images/03/6-3.jpg',
 						'./assets/images/03/5-3.jpg',
 					],
-					desc: '<div style="text-indent:2em;text-align:justify">1962年，在山西永济，虞乡公社社员收摘中药红花（新华社记者董荣贵摄）。</div><div style="text-indent:2em;text-align:justify">2019年4月10日，山西平定县冠山镇后沟村村民在采摘连翘叶（新华社记者曹阳摄）。</div><div style="text-indent:2em;text-align:justify">随着人民生活水平的提高，人们对健康的重视度与日俱增，中药材等特色种植业发展迅速。在山西平定，当地因地制宜大力发展连翘种植产业，成立农业合作社吸纳附近村民务工。特色种植不仅拓宽了农民的增收渠道，更为他们脱贫致富打下坚实基础。</div>'
+					desc: '<div style="text-indent:2em;text-align:justify">1962年，在山西永济，农民收摘中药红花（新华社记者董荣贵摄）。</div><div style="text-indent:2em;text-align:justify">2019年4月10日，山西平定县冠山镇后沟村村民在采摘连翘叶（新华社记者曹阳摄）。</div><div style="text-indent:2em;text-align:justify">随着人民生活水平的提高，人们对健康的重视度与日俱增，中药材等特色种植业发展迅速。在山西平定，当地因地制宜大力发展连翘种植产业，成立农业合作社吸纳附近村民务工。特色种植不仅拓宽了农民的增收渠道，更为他们脱贫致富打下坚实基础。</div>'
 				},
 				{
 					title: '动画制作人',
@@ -312,7 +312,7 @@
 						'./assets/images/03/12-3.jpg',
 						'./assets/images/03/11-3.jpg',
 					],
-					desc: '<div style="text-indent:2em;text-align:justify">1967年7月，在江西省于都县梓山公社上焦水库，放映员正在放映电影（王名益摄）。</div><div style="text-indent:2em;text-align:justify">2019年7月2日，在江西省吉安市峡江县水边镇湖洲村，乡村电影放映员谢萍果（右一）在为村民们放电影。他从事这项工作已有41年（新华社记者彭昭之摄）。</div><div style="text-indent:2em;text-align:justify">几十年前，看电影是件隆重的事。电影院只在大城市有，农村地区放电影，全靠放映员人挑肩扛，翻山越岭，露天放映。那时电影放映还是胶片机时代，农村没电，放映员要带发电机、放映机，再加上其它放映设备，整套一百多斤，全部都需要自己扛。如今，放露天电影跟过去大不相同了，数字化技术替代了胶片，一台放映机加上一块幕布，就能把另一个世界展现在村民面前。在一些大城市，露天放映还与汽车电影院等形式相结合，成为时尚而怀旧的休闲方式。</div>'
+					desc: '<div style="text-indent:2em;text-align:justify">1967年，在江西于都梓山上焦水库，放映员在放映电影（王名益摄）。</div><div style="text-indent:2em;text-align:justify">2019年7月2日，在江西省吉安市峡江县水边镇湖洲村，乡村电影放映员谢萍果（右一）在为村民们放电影。他从事这项工作已有41年（新华社记者彭昭之摄）。</div><div style="text-indent:2em;text-align:justify">几十年前，看电影是件隆重的事。电影院只在大城市有，农村地区放电影，全靠放映员人挑肩扛，翻山越岭，露天放映。那时电影放映还是胶片机时代，农村没电，放映员要带发电机、放映机，再加上其它放映设备，整套一百多斤，全部都需要自己扛。如今，放露天电影跟过去大不相同了，数字化技术替代了胶片，一台放映机加上一块幕布，就能把另一个世界展现在村民面前。在一些大城市，露天放映还与汽车电影院等形式相结合，成为时尚而怀旧的休闲方式。</div>'
 				},
 				{
 					title: '文物修复师',
@@ -387,15 +387,15 @@
 						'./assets/images/04/10-3.jpg',
 						'./assets/images/04/9-3.jpg',
 					],
-					desc: '<div style="text-indent:2em;text-align:justify">1963年，浙江杭州云裳丝织厂技术革新小组在调试更新设备（新华社记者章耕辛摄）。</div><div style="text-indent:2em;text-align:justify">2019年6月12日，工人钱琴姝在江苏苏州市吴江区盛泽镇江苏华佳丝绸股份有限公司车间进行络丝作业（新华社记者李响摄）。</div><div style="text-indent:2em;text-align:justify">从上世纪五六十年代使用自制的铁木丝织机，发展到如今使用剑杆织机、喷气喷水织机等设备，技术的改良提升了纺织工人的工作效率。一些纺织企业在智能制造的助力下，实现生产工序的自动化、数字化，降低了纺织工人的劳动强度。</div>'
+					desc: '<div style="text-indent:2em;text-align:justify">1963年，浙江杭州云裳丝织厂技术人员在调试更新设备（新华社记者章耕辛摄）。</div><div style="text-indent:2em;text-align:justify">2019年6月12日，工人钱琴姝在江苏苏州市吴江区盛泽镇江苏华佳丝绸股份有限公司车间进行络丝作业（新华社记者李响摄）。</div><div style="text-indent:2em;text-align:justify">从上世纪五六十年代使用自制的铁木丝织机，发展到如今使用剑杆织机、喷气喷水织机等设备，技术的改良提升了纺织工人的工作效率。一些纺织企业在智能制造的助力下，实现生产工序的自动化、数字化，降低了纺织工人的劳动强度。</div>'
 				},
 				{
 					title: '水渠建设者',
 					imgs: [
-						'./assets/images/04/12-3.jpg',
-						'./assets/images/04/11-3.jpg',
+						'./assets/images/04/12-4.jpg',
+						'./assets/images/04/11-4.jpg',
 					],
-					desc: '<div style="text-indent:2em;text-align:justify">1963年，新疆吐鲁番五星公社社员在整修坎儿井渠道（新华社记者武纯展摄）。</div><div style="text-indent:2em;text-align:justify">2019年7月7日，在新疆塔什库尔干塔吉克自治县达布达尔乡热斯喀木村，工人操作挖掘机铺设防渗、防蒸发的灌溉管道（新华社记者胡虎虎摄）。</div><div style="text-indent:2em;text-align:justify">从吐鲁番延续千年的地下灌溉工程坎儿井，到帕米尔高原上防渗、防蒸发的灌溉管道；从主要依靠人工修整，到机械施工……新疆当地百姓取水用水的渠道越来越多样。</div>'
+					desc: '<div style="text-indent:2em;text-align:justify">1963年，新疆吐鲁番群众在整修坎儿井渠道（新华社记者武纯展摄）。</div><div style="text-indent:2em;text-align:justify">2019年7月7日，在新疆塔什库尔干塔吉克自治县达布达尔乡热斯喀木村，工人操作挖掘机铺设防渗、防蒸发的灌溉管道（新华社记者胡虎虎摄）。</div><div style="text-indent:2em;text-align:justify">从吐鲁番延续千年的地下灌溉工程坎儿井，到帕米尔高原上防渗、防蒸发的灌溉管道；从主要依靠人工修整，到机械施工……新疆当地百姓取水用水的渠道越来越多样。</div>'
 				},
 				{
 					title: '乡村小学教师',
@@ -403,7 +403,7 @@
 						'./assets/images/04/14-3.jpg',
 						'./assets/images/04/13-3.jpg',
 					],
-					desc: '<div style="text-indent:2em;text-align:justify">1964年，在河北省煎茶铺公社西煎大队的一所耕读小学，知识青年高香兰在给学生们上语文课（新华社记者梁一丁摄）。</div><div style="text-indent:2em;text-align:justify">2019年7月2日，在河北省清河县连庄小学，老师潘海丽用电子黑板为三年级学生上语文课（新华社记者朱旭东摄）。</div><div style="text-indent:2em;text-align:justify">经过几十年的发展，我国乡村小学教学环境和条件较新中国成立初期有了明显改善，从自制简单的教具、挂图、小黑板，变成了今天的投影仪、电脑、多媒体设备，上课方式日趋多样化和现代化，为教师的教学减轻了负担，也为学生的学习带来便捷。同时，我国乡村小学教师的学历结构不断优化，社会地位不断提升，乡村教师教学专业化程度越来越高，乡村教育事业得到了迅速发展。</div>'
+					desc: '<div style="text-indent:2em;text-align:justify">1964年，在河北省坝县（今霸州市）的一所耕读小学，青年教师高香兰在给学生们上语文课（新华社记者梁一丁摄）。</div><div style="text-indent:2em;text-align:justify">2019年7月2日，在河北省清河县连庄小学，老师潘海丽用电子黑板为三年级学生上语文课（新华社记者朱旭东摄）。</div><div style="text-indent:2em;text-align:justify">经过几十年的发展，我国乡村小学教学环境和条件较新中国成立初期有了明显改善，从自制简单的教具、挂图、小黑板，变成了今天的投影仪、电脑、多媒体设备，上课方式日趋多样化和现代化，为教师的教学减轻了负担，也为学生的学习带来便捷。同时，我国乡村小学教师的学历结构不断优化，社会地位不断提升，乡村教师教学专业化程度越来越高，乡村教育事业得到了迅速发展。</div>'
 				},
 				{
 					title: '潜水员',
@@ -583,7 +583,7 @@
 						'./assets/images/06/18-3.jpg',
 						'./assets/images/06/17-3.jpg',
 					],
-					desc: '<div style="text-indent:2em;text-align:justify">1984年，原四川省平武县林业局助理工程师钟肇敏（左）给野生大熊猫幼崽“龙龙”喂食（新华社记者金勖琪摄）。</div><div style="text-indent:2em;text-align:justify">5月26日，在中国大熊猫保护研究中心卧龙神树坪基地，饲养员在照顾“熊猫幼儿园”内的大熊猫（新华社记者薛玉斌摄）。</div><div style="text-indent:2em;text-align:justify">2016年，世界自然保护联盟将大熊猫从“濒危”物种调整为“易危”物种。这不仅仅是中国不懈努力的结果，也是全球保护工作的重大成果之一。如今，中国大熊猫保护工作者传承老一辈精神，不仅攻克了圈养大熊猫人工繁育“发情难”“配种受孕难”“育幼成活难”三大难题，还在不断增加大熊猫野化放归数量，努力改善野生大熊猫遗传多样性，实现大熊猫野外种群的可持续发展。</div>'
+					desc: '<div style="text-indent:2em;text-align:justify">1984年，原四川省平武县林业局助理工程师钟肇敏（左）给野生大熊猫幼崽“龙龙”喂食（新华社记者金勖琪摄）。</div><div style="text-indent:2em;text-align:justify">2019年5月26日，在中国大熊猫保护研究中心卧龙神树坪基地，饲养员在照顾“熊猫幼儿园”内的大熊猫（新华社记者薛玉斌摄）。</div><div style="text-indent:2em;text-align:justify">2016年，世界自然保护联盟将大熊猫从“濒危”物种调整为“易危”物种。这不仅仅是中国不懈努力的结果，也是全球保护工作的重大成果之一。如今，中国大熊猫保护工作者传承老一辈精神，不仅攻克了圈养大熊猫人工繁育“发情难”“配种受孕难”“育幼成活难”三大难题，还在不断增加大熊猫野化放归数量，努力改善野生大熊猫遗传多样性，实现大熊猫野外种群的可持续发展。</div>'
 				},
 				{
 					title: '义乌小商品经营者',
@@ -625,7 +625,7 @@
 						'./assets/images/07/8-3.jpg',
 						'./assets/images/07/7-3.jpg',
 					],
-					desc: '<div style="text-indent:2em;text-align:justify">1981年，江苏苏州越溪公社社员在业余时间刺绣（新华社记者高梅及摄）。</div><div style="text-indent:2em;text-align:justify">2019年6月11日，在江苏省苏州市镇湖街道苏绣小镇，姚惠芬（左）和妹妹姚惠琴研究苏绣作品的刺绣针法（新华社记者李响摄）。</div><div style="text-indent:2em;text-align:justify">苏绣是中国四大名绣之一。出生于刺绣世家的姚惠芬首创了“简针绣”技法，并对中国水墨写意刺绣及人物肖像刺绣进行了大胆探索，在刺绣技法和审美内涵方面取得许多突破。</div>'
+					desc: '<div style="text-indent:2em;text-align:justify">1981年，在江苏苏州，两名女子在业余时间刺绣（新华社记者高梅及摄）。</div><div style="text-indent:2em;text-align:justify">2019年6月11日，在江苏省苏州市镇湖街道苏绣小镇，姚惠芬（左）和妹妹姚惠琴研究苏绣作品的刺绣针法（新华社记者李响摄）。</div><div style="text-indent:2em;text-align:justify">苏绣是中国四大名绣之一。出生于刺绣世家的姚惠芬首创了“简针绣”技法，并对中国水墨写意刺绣及人物肖像刺绣进行了大胆探索，在刺绣技法和审美内涵方面取得许多突破。</div>'
 				},
 				{
 					title: '测量工程师',
@@ -654,10 +654,10 @@
 				{
 					title: '蔬菜种植户',
 					imgs: [
-						'./assets/images/07/16-3.jpg',
-						'./assets/images/07/15-3.jpg',
+						'./assets/images/07/16-4.jpg',
+						'./assets/images/07/15-4.jpg',
 					],
-					desc: '<div style="text-indent:2em;text-align:justify">1997年，山东寿光五台镇仉东村的程淑英在大棚里收摘新近引进的状元红甜瓜（新华社记者张鲁成摄）。</div><div style="text-indent:2em;text-align:justify">2019年6月26日，山东寿光稻田镇崔西村村民崔新建演示用手机APP调节大棚的温度和湿度（新华社记者朱峥摄）</div><div style="text-indent:2em;text-align:justify">上世纪80年代末，山东寿光农民率先在国内利用冬暖式大棚种植反季节蔬菜，成为中国北方地区的一个重要蔬菜基地。如今，寿光农民借助先进的“物联网”技术，大力推广水肥一体化、智能放风机、植物生长灯等先进设备，菜农足不出户就能实现对蔬菜大棚的监管，引领大棚发展的现代化转型。</div>'
+					desc: '<div style="text-indent:2em;text-align:justify">1997年，在山东寿光，程淑英在大棚里收摘新近引进的状元红甜瓜（新华社记者张鲁成摄）。</div><div style="text-indent:2em;text-align:justify">2019年6月26日，山东寿光稻田镇崔西村村民崔新建演示用手机APP调节大棚的温度和湿度（新华社记者朱峥摄）</div><div style="text-indent:2em;text-align:justify">上世纪80年代末，山东寿光农民率先在国内利用冬暖式大棚种植反季节蔬菜，成为中国北方地区的一个重要蔬菜基地。如今，寿光农民借助先进的“物联网”技术，大力推广水肥一体化、智能放风机、植物生长灯等先进设备，菜农足不出户就能实现对蔬菜大棚的监管，引领大棚发展的现代化转型。</div>'
 				},
 				{
 					title: '青藏高原教师',
@@ -917,7 +917,6 @@
 							}
 						});
 
-
 						
 						var heart = doc.querySelectorAll('.zmiti-heart')[index];
 						heart.classList.add('active')
@@ -925,15 +924,11 @@
 							this.classList.remove('active');
 						});
 
-						
-						
-
 						index > -1 && self.like(index);
-
 						
 						var h = 0
-						if (self.zmitiTitle.classList.contains('hide')) {
-							h = 700
+						if (self.$('.zmiti-main-ui').classList.contains('close')) {
+							h = 1000
 						}
 						heart.style.left = (e.changedTouches[0].pageX / 750) * 100 + '%';
 
@@ -984,10 +979,10 @@
 					
 					}
 
-					box.querySelector('.zmiti-img-box').addEventListener('touchstart', function (e) {
+					box.querySelector('.zmiti-img-box').ontouchstart = function(e){
 						start(e);
-						// return false;
-					});
+					}
+				
 
 					box.querySelector('.zmiti-img-box').addEventListener('touchmove', function (e) {
 						
